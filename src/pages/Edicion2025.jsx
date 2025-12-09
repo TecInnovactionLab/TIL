@@ -13,6 +13,24 @@ import taller2_3 from '../assets/taller2_3.png';
 import taller3_1 from '../assets/taller3_1.png';
 import taller3_2 from '../assets/taller3_2.png';
 import taller3_3 from '../assets/taller3_3.png';
+import comida1 from '../assets/comida1.jpeg';
+import comida2 from '../assets/comida2.jpeg';
+import comida3 from '../assets/comida3.jpeg';
+import comida4 from '../assets/comida4.jpeg';
+import comida5 from '../assets/comida5.jpeg';
+import comida6 from '../assets/comida6.jpeg';
+import comida7 from '../assets/comida7.jpeg';
+import comida8 from '../assets/comida8.jpeg';
+import comida9 from '../assets/comida9.jpeg';
+import comida10 from '../assets/comida10.jpeg';
+import comida11 from '../assets/comida11.jpeg';
+import comida12 from '../assets/comida12.jpeg';
+import comida13 from '../assets/comida13.jpeg';
+import comida14 from '../assets/comida14.jpeg';
+import sh_tnk1 from '../assets/shark_tank1.png';
+import sh_tnk2 from '../assets/shark_tank2.png';
+import sh_tnk3 from '../assets/shark_tank3.png';
+import sh_tnk4 from '../assets/shark_tank4.png';
 import './Edicion2025.css';
 
 export default function Edicion2025() {
@@ -35,9 +53,9 @@ export default function Edicion2025() {
             <li><a href="#panel">Panel</a></li>
             <li><a href="#talleres">Talleres</a></li>
             <li><a href="#rincón">Rincón de Agentes de Cambio</a></li>
+            <li><a href="#break">Break</a></li>
             <li><a href="#shark-tank">Shark Tank</a></li>
             <li><a href="#premiacion">Premiación</a></li>
-            <li><a href="#participantes">Participantes</a></li>
           </ul>
         </div>
       </nav>
@@ -137,33 +155,38 @@ export default function Edicion2025() {
         </div>
 
         {/* Videos de Panelistas */}
-        <div className="panel-videos">
-          <div className="video-item">
-            <div className="video-wrapper">
-              <iframe
-                src="https://youtube.com/shorts/JdmySDTLgfs?feature=share"
-                title="Video Panelista 1"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <p className="video-caption">Panelista Fabiola Navarro</p>
-          </div>
+<div className="talleristas-section">
+  <h2 className="talleristas-title">Panelistas</h2>
+  
+  <div className="panel-videos">
+    <div className="video-item">
+      <div className="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/JdmySDTLgfs"
+          title="Video Panelista 1"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="video-caption"><span className="highlight-box">Juan García</span></p>
+    </div>
 
-          <div className="video-item">
-            <div className="video-wrapper">
-              <iframe
-                src="https://youtube.com/shorts/SFxTuFwDzpc?feature=share"
-                title="Video Panelista 2"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <p className="video-caption">Panelista Juan García</p>
-          </div>
-        </div>
+    <div className="video-item">
+      <div className="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/SFxTuFwDzpc"
+          title="Video Panelista 2"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+       <p className="video-caption"><span className="highlight-box">Fabiola Navarro</span></p>
+    </div>
+  </div>
+</div>
+
       </section>
 
       {/* Sección Talleres */}
@@ -278,7 +301,7 @@ export default function Edicion2025() {
           </div>
         </div>
         {/* Taller 3: Comunicación Estratégica */}
-<div className="taller-container">
+  <div className="taller-container">
   <div className="taller-header-box">
     <h2 className="taller-title">Comunicación Estratégica</h2>
   </div>
@@ -331,8 +354,192 @@ export default function Edicion2025() {
     </div>
   </div>
 </div>
+{/* Talleristas */}
+<div className="talleristas-section">
+  <h2 className="talleristas-title">Talleristas</h2>
+  
+  <div className="panel-videos">
+    <div className="video-item">
+      <div className="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/VIDEO_ID_1"
+          title="Tallerista Natalia Arriaga"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="video-caption"><span className="highlight-box">Natalia Arriaga</span></p>
+    </div>
+
+    <div className="video-item">
+      <div className="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/VIDEO_ID_2"
+          title="Tallerista Cristóbal Rodríguez"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="video-caption"><span className="highlight-box">Cristóbal Rodríguez</span></p>
+    </div>
+  </div>
+</div>
+
 
       </section>
+      {/* Sección Rincón de Agentes de Cambio */}
+<section className="evento-section" id="rincón">
+  <div className="evento-header">
+    <h1 className="evento-title">Rincón Agentes de Cambio</h1>
+  </div>
+
+  <div className="rincon-content-grid">
+    <div className="rincon-image">
+      <img src={til} alt="Rincón de Agentes de Cambio" />
     </div>
+
+    <div className="rincon-text">
+      <p className="rincon-quote">
+        <p>Las <span className="highlight-box">grandes ideas</span> empiezan con una intención: 
+        <span className="highlight-box">mejorar el mundo.</span>
+        </p>
+      </p>
+    </div>
+  </div>
+
+  <div className="rincon-description">
+    <div className="rincon-description-column">
+      <p>
+        La feria de innovación "Rincón de Agentes de Cambio" reunió a estudiantes de nivel preparatoria 
+        que presentaron proyectos diseñados para generar un impacto positivo en su comunidad. Durante el evento, 
+        los asistentes pudieron recorrer cada stand y conocer propuestas creativas enfocadas en temas sociales, 
+        ambientales y tecnológicos. Los alumnos mostraron con orgullo sus ideas innovadoras, explicaron sus propuestas 
+        y trabajo en equipo, mientras compartían con jueces y visitantes el objetivo y funcionamiento de sus soluciones.
+      </p>
+    </div>
+
+    <div className="rincon-description-column">
+      <p>
+        El público tuvo la oportunidad de participar activamente votando por sus proyectos favoritos, mientras que un
+        panel de jueces evaluó cada propuesta considerando criterios como innovación, viabilidad e impacto.
+      </p>
+      <p>
+        Al finalizar la jornada, se reconoció el esfuerzo de todos los participantes y se anunciaron los tres equipos 
+        ganadores que avanzaron a la gran final. Estos equipos destacaron por la claridad de sus ideas, la calidad de 
+        sus presentaciones y el potencial de sus propuestas. Así, los tres ganadores obtuvieron su pase a la final, 
+        donde compitieron nuevamente para demostrar su talento como verdaderos agentes de cambio.
+      </p>
+    </div>
+  </div>
+  
+</section>
+    {/* Sección Break con TEUS */}
+<section className="evento-section" id="break">
+  <div className="evento-header">
+    <h1 className="evento-title">Break</h1>
+  </div>
+
+  <div className="break-subtitle">
+    <p>
+      Un <span className="highlight-red">pequeño break con TEUS</span> antes de continuar con la agenda del día
+    </p>
+  </div>
+
+  <div className="masonry-gallery">
+    <div className="masonry-item">
+      <img src={comida1} alt="Break TEUS 1" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida2} alt="Break TEUS 2" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida3} alt="Break TEUS 3" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida4} alt="Break TEUS 4" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida5} alt="Break TEUS 5" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida6} alt="Break TEUS 6" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida7} alt="Break TEUS 7" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida8} alt="Break TEUS 8" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida9} alt="Break TEUS 9" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida10} alt="Break TEUS 10" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida11} alt="Break TEUS 11" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida12} alt="Break TEUS 12" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida13} alt="Break TEUS 13" />
+    </div>
+    <div className="masonry-item">
+      <img src={comida14} alt="Break TEUS 14" />
+    </div>
+  </div>
+</section>
+{/* Sección Shark Tank */}
+<section className="evento-section" id="shark-tank">
+  <div className="evento-header">
+    <h1 className="evento-title">Shark Tank</h1>
+  </div>
+
+  <div className="taller-container">
+    <div className="taller-content-grid">
+      <div className="taller-image">
+        <img src={sh_tnk1} alt="Shark Tank" />
+      </div>
+
+      <div className="taller-text-highlight">
+        <p className="taller-quote">
+          El <span className="highlight-box">momento de la verdad</span>
+        </p>
+      </div>
+    </div>
+
+    <div className="taller-description">
+      <div className="taller-description-column">
+        <p>
+          El momento más crucial del evento organizado, producido y realizado por el <span className="highlight-red">Lab del Tec de Monterrey campus Puebla</span>, fue la competencia al estilo Shark Tank. Toda la preparación, el aprendizaje y los nervios de los participantes convergieron en un solo espacio para este enfrentamiento decisivo.
+        </p>
+      </div>
+
+      <div className="taller-description-column">
+        <p>
+          Se abrieron las puertas del Shark Tank para recibir a cinco equipos finalistas: tres de Preparatoria y dos del Sprint de Innovación. Estos jóvenes innovadores se enfrentaron a un panel de <span className="highlight-red">"Tiburones"</span> (jueces e inversores), entre los cuales se distinguía la presencia de una corporación como <span className="highlight-red">AT&T</span>.
+        </p>
+      </div>
+    </div>
+
+    {/* Galería inferior del Shark Tank */}
+    <div className="taller-gallery">
+      <div className="taller-gallery-image">
+        <img src={sh_tnk2} alt="Shark Tank momento 1" />
+      </div>
+      <div className="taller-gallery-image">
+        <img src={sh_tnk3} alt="Shark Tank momento 2" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    </div>
+    
   );
 }
