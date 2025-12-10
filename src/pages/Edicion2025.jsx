@@ -31,6 +31,12 @@ import sh_tnk1 from '../assets/shark_tank1.png';
 import sh_tnk2 from '../assets/shark_tank2.png';
 import sh_tnk3 from '../assets/shark_tank3.png';
 import sh_tnk4 from '../assets/shark_tank4.png';
+import premiacion1 from '../assets/premiacion1.jpeg';
+import premiacion2 from '../assets/premiacion2.jpeg';
+import premiacion3 from '../assets/premiacion3.png';
+import premiacion4 from '../assets/premiacion4.png';
+import premiacion5 from '../assets/premiacion5.png';
+
 import './Edicion2025.css';
 
 export default function Edicion2025() {
@@ -68,9 +74,8 @@ export default function Edicion2025() {
 
   <div className="evento-content">
     <p>
-      El Centro de Convenciones se llenó de entusiasmo y expectativas mientras los 16 equipos 
-      finalistas ingresaban al recinto, conscientes de que estaban por vivir una experiencia 
-      determinante para su crecimiento personal y profesional.
+      El Centro de Convenciones se llenó de <span className="highlight-box-inline">entusiasmo</span> y <span className="highlight-box-inline">expectativas</span> 
+      mientras los 16 equipos finalistas ingresaban al recinto, conscientes de que estaban por vivir una <span className="highlight-box-inline">experiencia determinante</span> para su crecimiento personal y profesional.
     </p>
 
     <p>
@@ -114,7 +119,7 @@ export default function Edicion2025() {
           <p>
             Antes del Shark Tank, los participantes asistieron a un panel
             diseñado para fortalecer su visión y comprensión del impacto
-            social. <span className="highlight-red">"El ADN de Agentes de Cambio"</span> reunió a especialistas
+            social. <span className="highlight-box-inline">"El ADN de Agentes de Cambio"</span> reunió a especialistas
             en innovación pública y transformación comunitaria, quienes
             compartieron perspectivas clave sobre el papel de los agentes
             de cambio en México.
@@ -124,8 +129,10 @@ export default function Edicion2025() {
         <div className="panel-grid">
           <div className="panel-text">
             <p>
-              El panel contó con la participación de Juan García,
-              Fabiola Navarro, Tatiana Fraga y Natalia Arriaga,
+              El panel contó con la participación de <span className="highlight-box-inline">Juan García,</span>
+              <span className="highlight-box-inline">Fabiola Navarro,</span>
+              <span className="highlight-box-inline">Tatiana Fraga</span>
+               y <span className="highlight-box-inline">Natalia Arriaga</span>,
               profesionales con una trayectoria destacada en
               innovación social. Los panelistas compartieron
               herramientas prácticas para convertir una idea en
@@ -216,19 +223,32 @@ export default function Edicion2025() {
           <div className="taller-description">
             <div className="taller-description-column">
               <p>
-                En la Sala de Relaciones Internacionales se llevó a cabo el taller de Liderazgo Público con el eje temático de "El síndrome del impostor como oportunidad". Fue un espacio para hablar de frente sin rodeos del impostor, ese miedo tan común en personas de alto desempeño que pocas veces se reconoce abiertamente.
+                En la Sala de Relaciones Internacionales se llevó a cabo el taller de Liderazgo Público con el eje
+                “Transforma la inseguridad en áreas de oportunidad”. Fue un espacio para hablar de frente del síndrome del impostor,
+                ese <span className="highlight-box-inline">miedo</span> tan común en personas de alto desempeño que pocas veces se reconoce abiertamente.
               </p>
               <p>
-                A través de ejercicios prácticos y confidentes han logrado identificar vía voz interna: ¿qué dice de uno?, ¿qué palabras se repite, y en qué tono?, y así mismo se cómo impacta a su forma de liderar. El objetivo principal fue negar al Intrapersonal: ese venía de norma y hacer un plan de acción real, basado en el mismo punto de partida para el crecimiento personal.
+                A partir de esta idea central, las y los participantes trabajaron en identificar esa voz interna que repite 
+                “no eres lo suficientemente bueno” y en reconocer cómo <span className="highlight-box-inline">impacta</span> en su forma de 
+                <span className="highlight-box-inline">liderar.</span> El objetivo no fue negar la inseguridad,
+                sino verla de frente y entender que también puede convertirse en un punto de partida para el 
+                <span className="highlight-box-inline">crecimiento personal.</span>
               </p>
             </div>
 
             <div className="taller-description-column">
               <p>
-                Durante la sesión se presentó el método de Resignificación enfocado en resultados en transformar la interpretación de las situaciones desde otro tipo de perspectiva. Se pasó de pensamientos como "soy idea no va a funcionar", a mirarse más profundamente y ver que las oportunidades sí son ese tipo de oportunidad que quedo trabajar y mejorar, logrando la clara comprensión de manera y no como freno.
+                Durante la sesión se presentó el <span className="highlight-box-inline"> método de resignificación,</span> 
+                enfocado en transformar el autosabotaje en <span className="highlight-box-inline">oportunidad</span> 
+                a través del cambio de perspectiva. Se pasó de pensamientos como “mi idea no va a funcionar” a miradas
+                más constructivas del tipo “mi innovación tiene áreas de oportunidad que puedo trabajar y mejorar”,  
+                usando la duda como motor de mejora y no como freno.
               </p>
               <p>
-                Además, se exploraron estrategias prácticas de dominar recogidas a errores sin caer en la dureza autocrítica, sino para reconocer logros y líderes desde el equipo personal. El taller cerró apoyando a transformar la negatividad en confianza. El taller se vivió como un espacio dinámico para romper la rigidez, conversar y crecer en liderazgo desde uno mismos, guiado por Cristóbal Rodríguez.
+                Además, se exploraron estrategias prácticas de identificación de errores sin caer en la culpa,
+                de autenticidad para reconocer logros y liderar desde quiénes somos realmente, y de resiliencia
+                para transformar la inseguridad en <span className="highlight-box-inline">confianza</span>. El taller se vivió como un espacio dinámico para  
+                formar líderes públicos más conscientes y seguros de sí mismos, guiado por Cristóbal Rodríguez.
               </p>
             </div>
           </div>
@@ -256,7 +276,8 @@ export default function Edicion2025() {
 
             <div className="taller-text-highlight">
               <p className="taller-quote">
-                Hay momentos donde la <span className="highlight-box">creatividad</span> deja de ser teoría y se vuelve una práctica real.
+                Hay momentos donde la <span className="highlight-box">creatividad</span> 
+                deja de ser teoría y se vuelve una práctica real.
               </p>
             </div>
           </div>
@@ -273,9 +294,9 @@ export default function Edicion2025() {
               <p>
                 Durante el taller, Flor puso sobre la mesa una idea clave: innovar no es solo imaginar cosas 
                 nuevas, sino conectar con las personas desde su experiencia. A partir de ahí, se trabajó el 
-                proceso de Design Thinking revisando sus etapas principales: <span className="highlight-box">Empatizar,</span> 
-                <span className="highlight-box">Definir,</span> <span className="highlight-box">Idear,</span>
-                <span className="highlight-box">Prototipar,</span>y <span className="highlight-box">Testear</span>. Más que una secuencia rígida, se presentó como un mapa flexible que 
+                proceso de Design Thinking revisando sus etapas principales: <span className="highlight-box-inline">Empatizar,</span> 
+                <span className="highlight-box-inline">Definir,</span><span className="highlight-box-inline">Idear,</span>
+                <span className="highlight-box-inline">Prototipar,</span> y <span className="highlight-box-inline">Testear</span>. Más que una secuencia rígida, se presentó como un mapa flexible que 
                 permite avanzar, regresar, explorar, y sobre todo, descubrir distintas rutas para encontrar 
                 soluciones más potentes y significativas.
               </p>
@@ -283,10 +304,17 @@ export default function Edicion2025() {
 
             <div className="taller-description-column">
               <p>
-                Cada equipo trabajó con un caso de movilidad urbana, explorando perfiles de personas, desafíos de transporte público, automovilistas y ciudadanía en movimiento. Con estos escenarios, las y los equipos identificaron puntos de dolor, necesidades atrevidas y disruptivas, alejándose de las soluciones típicas y cuestionando cómo mejorar realmente la forma en la que nos movemos y vivimos la ciudad.
+                Cada equipo trabajó con un caso de movilidad urbana, explorando perfiles de personas, desafíos de transporte
+                público, automovilistas y ciudadanía en movimiento. Con estos escenarios, las y los equipos identificaron 
+                puntos de dolor, <span className="highlight-box-inline">necesidades atrevidas</span> y disruptivas, alejándose de las soluciones típicas y cuestionando 
+                cómo mejorar realmente la forma en la que nos movemos y vivimos la ciudad.
               </p>
               <p>
-                Entre dinámicas, perfiles de usuario y lluvias de ideas, los asistentes aprendieron a mirar los problemas con otros ojos y, sobre todo, a trabajar desde una empatía más profunda con las personas usuarias y a retomar necesidades en torno a su problema social. El resultado fue que cada equipo convirtió en un espacio práctico y motivador que impulsó a los equipos a transformar sus intuiciones en propuestas de diseño con propósito y sentido.
+                Entre dinámicas, perfiles de usuario y lluvias de ideas, los asistentes aprendieron a mirar 
+                los problemas desde nuevas perspectivas, a practicar una empatía más profunda con las personas 
+                usuarias y a identificar necesidades de fondo antes de proponer respuestas. Así, el taller se convirtió 
+                en un espacio práctico y motivador que impulsó a los equipos a transformar sus intuiciones en propuestas
+                de diseño con propósito y sentido.
               </p>
             </div>
           </div>
@@ -321,10 +349,15 @@ export default function Edicion2025() {
   <div className="taller-description">
     <div className="taller-description-column">
       <p>
-        En el HUB de Emprendimiento se llevó a cabo el taller <span className="highlight-red">"Armando tu PITCH"</span>, impartido por Leticia Tellería, donde los estudiantes aprendieron a comunicar sus ideas con claridad, intención e impacto.
+        En el HUB de Emprendimiento se llevó a cabo el taller <span className="highlight-box">"Armando tu PITCH"</span>, 
+        impartido por Leticia Tellería, donde los estudiantes aprendieron a comunicar sus ideas con claridad, intención e impacto.
       </p>
       <p>
-        Durante la sesión, los asistentes aprendieron cómo construir un pitch claro, breve y persuasivo, capaz de comunicar una idea con verdadero impacto. <span className="highlight-red">Se exploró qué es un pitch, por qué es tan importante en el mundo del emprendimiento y en contextos sociales</span>, y cómo puede ayudar a presentar iniciativas, atraer aliados o defender una propuesta frente a un comité o cliente.
+        Durante la sesión, los asistentes aprendieron cómo construir un pitch <span className="highlight-box-inline">claro,</span>
+        <span className="highlight-box-inline">breve</span> y <span className="highlight-box-inline">persuasivo</span>, capaz de 
+        <span className="highlight-box-inline">comunicar una idea</span>con verdadero impacto. Se exploró qué es un pitch, por qué es tan importante en el mundo del 
+        emprendimiento y en contextos sociales, y cómo puede ayudar a presentar iniciativas, atraer aliados o defender una 
+        propuesta frente a un comité o cliente.
       </p>
     </div>
 
@@ -339,7 +372,10 @@ export default function Edicion2025() {
         <li>Cierre que inspire acción</li>
       </ul>
       <p>
-        Además, los estudiantes recibieron consejos clave sobre comunicación efectiva: uso de verbos de acción, historias que generen conexión, lenguaje claro, tono de voz firme, postura abierta, contacto visual y la importancia del silencio estratégico. Así, se trató de un espacio práctico y motivador que impulsó a los asistentes a transformar sus ideas en mensajes poderosos.
+        Además, los estudiantes recibieron <span className="highlight-box-inline">consejos clave</span> sobre comunicación efectiva: uso de verbos de acción,
+         historias que generen conexión, lenguaje claro, tono de voz firme, postura abierta, contacto visual y 
+         la importancia del silencio estratégico. Así, se trató de un espacio práctico y motivador que impulsó a
+          los asistentes a transformar sus ideas en mensajes poderosos.
       </p>
     </div>
   </div>
@@ -413,23 +449,25 @@ export default function Edicion2025() {
     <div className="rincon-description-column">
       <p>
         La feria de innovación "Rincón de Agentes de Cambio" reunió a estudiantes de nivel preparatoria 
-        que presentaron proyectos diseñados para generar un impacto positivo en su comunidad. Durante el evento, 
-        los asistentes pudieron recorrer cada stand y conocer propuestas creativas enfocadas en temas sociales, 
-        ambientales y tecnológicos. Los alumnos mostraron con orgullo sus ideas innovadoras, explicaron sus propuestas 
+        que presentaron proyectos diseñados para generar un <span className="highlight-box-inline">impacto positivo</span>
+        en su comunidad. Durante el evento, 
+        los asistentes pudieron recorrer cada stand y conocer <span className="highlight-box-inline">propuestas creativas</span>
+        enfocadas en temas sociales, 
+        ambientales y tecnológicos. Los alumnos <span className="highlight-box-inline">mostraron</span> con orgullo sus ideas innovadoras, explicaron sus propuestas 
         y trabajo en equipo, mientras compartían con jueces y visitantes el objetivo y funcionamiento de sus soluciones.
       </p>
     </div>
 
     <div className="rincon-description-column">
       <p>
-        El público tuvo la oportunidad de participar activamente votando por sus proyectos favoritos, mientras que un
-        panel de jueces evaluó cada propuesta considerando criterios como innovación, viabilidad e impacto.
+        El público tuvo la oportunidad de <span className="highlight-box-inline">participar</span> activamente <span className="highlight-box-inline">votando</span> por sus proyectos favoritos, mientras que un
+        panel de jueces evaluó cada propuesta considerando criterios como <span className="highlight-box-inline">innovación,</span><span className="highlight-box-inline">viabilidad</span>e <span className="highlight-box-inline">impacto</span>.
       </p>
       <p>
         Al finalizar la jornada, se reconoció el esfuerzo de todos los participantes y se anunciaron los tres equipos 
-        ganadores que avanzaron a la gran final. Estos equipos destacaron por la claridad de sus ideas, la calidad de 
+        ganadores que avanzaron a la <span className="highlight-box-inline">gran final</span>. Estos equipos destacaron por la claridad de sus ideas, la calidad de 
         sus presentaciones y el potencial de sus propuestas. Así, los tres ganadores obtuvieron su pase a la final, 
-        donde compitieron nuevamente para demostrar su talento como verdaderos agentes de cambio.
+        donde <span className="highlight-box-inline">compitieron</span>nuevamente para demostrar su talento como verdaderos agentes de cambio.
       </p>
     </div>
   </div>
@@ -505,22 +543,28 @@ export default function Edicion2025() {
       </div>
 
       <div className="taller-text-highlight">
-        <p className="taller-quote">
-          El <span className="highlight-box">momento de la verdad</span>
-        </p>
+        <h2 className="shark-tank-subtitle">
+          El momento <span className="highlight-box">de la verdad</span>
+        </h2>
       </div>
     </div>
 
     <div className="taller-description">
       <div className="taller-description-column">
         <p>
-          El momento más crucial del evento organizado, producido y realizado por el <span className="highlight-red">Lab del Tec de Monterrey campus Puebla</span>, fue la competencia al estilo Shark Tank. Toda la preparación, el aprendizaje y los nervios de los participantes convergieron en un solo espacio para este enfrentamiento decisivo.
+          El momento más crucial del evento organizado, producido y realizado por el 
+          <span className="highlight-box-inline">Lab del Tec de Monterrey campus Puebla</span>, 
+          fue la competencia al estilo Shark Tank. Toda la preparación, el aprendizaje y 
+          los nervios de los participantes convergieron en un solo espacio para este <span className="highlight-box-inline">enfrentamiento</span>decisivo.
         </p>
       </div>
 
       <div className="taller-description-column">
         <p>
-          Se abrieron las puertas del Shark Tank para recibir a cinco equipos finalistas: tres de Preparatoria y dos del Sprint de Innovación. Estos jóvenes innovadores se enfrentaron a un panel de <span className="highlight-red">"Tiburones"</span> (jueces e inversores), entre los cuales se distinguía la presencia de una corporación como <span className="highlight-red">AT&T</span>.
+          Se abrieron las puertas del Shark Tank para recibir a cinco equipos finalistas: 
+          tres de Preparatoria y dos del Sprint de Innovación. Estos jóvenes innovadores se 
+          enfrentaron a un panel de <span className="highlight-box-inline">"Tiburones"</span>(jueces e inversores), 
+          entre los cuales se distinguía la presencia de nuestro principal patrocinador <span className="highlight-box-inline">AT&T</span>.
         </p>
       </div>
     </div>
@@ -534,12 +578,145 @@ export default function Edicion2025() {
         <img src={sh_tnk3} alt="Shark Tank momento 2" />
       </div>
     </div>
+
+    {/* Título después de las imágenes */}
+    <div className="shark-tank-decisiones">
+      <h2 className="shark-tank-subtitle-large">
+        Las decisiones fueron <span className="highlight-box">casi imposibles</span>
+      </h2>
+    </div>
   </div>
+
+{/* Continuación Shark Tank - El momento de la verdad */}
+<div className="taller-container">
+  <div className="taller-description">
+    <div className="taller-description-column">
+      <p>
+        Cada equipo dispuso de un tiempo total de diez minutos que podía cambiarlo todo. 
+        La estructura era estricta: solo tres minutos para presentar su proyecto con un 
+        pitch poderoso, seguidos de siete minutos de preguntas directas e incisivas centradas 
+        en dos pilares fundamentales: el <span className="highlight-box-inline">impacto social o 
+          económico</span> y la <span className="highlight-box-inline">viabilidad práctica</span> de sus propuestas.
+      </p>
+    </div>
+
+    <div className="taller-description-column">
+      <p>
+        Una vez concluidas las presentaciones, la tensión se elevó mientras los Tiburones
+        deliberaban. Las decisiones finales fueron descritas como "casi imposibles" de tomar, dada
+        la calidad de los proyectos. El evento culminó con la clausura y la premiación, celebrando
+        que el nivel de la <span className="highlight-box-inline">innovacion publica</span>demostrada por cada equipo representaba el futuro de México.
+      </p>
+    </div>
+  </div>
+
+  {/* Imagen grande horizontal */}
+  <div className="shark-tank-image-full">
+    <img src={sh_tnk4} alt="Las decisiones fueron casi imposibles" />
+  </div>
+</div>
+</section>
+{/* Sección Premiación */}
+<section className="evento-section" id="premiacion">
+  <div className="taller-container">
+    <div className="shark-tank-decisiones">
+      <h2 className="shark-tank-subtitle-large">
+        El momento <span className="highlight-box">más esperado</span>
+      </h2>
+    </div>
+
+    {/* Galería de 2 imágenes */}
+    <div className="taller-gallery">
+      <div className="taller-gallery-image">
+        <img src={premiacion1} alt="Clausura" />
+      </div>
+      <div className="taller-gallery-image">
+        <img src={premiacion2} alt="Premiación" />
+      </div>
+    </div>
+
+    <div className="evento-header premiacion-header">
+      <h1 className="evento-title">Premiación</h1>
+    </div>
+
+    <div className="taller-description">
+      <div className="taller-description-column">
+        <p>
+          Tras la intensidad del Shark Tank, llegó uno de los momentos más esperados de toda la jornada: la premiación. 
+          Después de escuchar cada pitch, evaluar la <span className="highlight-box-inline">claridad de las propuestas</span>, su viabilidad, su capacidad de 
+          impacto y la forma en que los equipos defendieron sus ideas frente a los jueces, los sharks se 
+          reunieron para <span className="highlight-box-inline">deliberar</span>. Fue un proceso complejo, lleno de comparaciones detalladas, discusiones 
+          y revisiones cuidadosas, pues el nivel de los proyectos había puesto la vara extremadamente alta.
+        </p>
+      </div>
+
+      <div className="taller-description-column">
+        <p>
+          Mientras los participantes esperaban, el ambiente se llenó de <span className="highlight-box-inline">expectativa.</span>Los equipos conversaban entre sí,
+          repasaban mentalmente sus intervenciones y cruzaban miradas de <span className="highlight-box-inline">incertidumbre</span>
+          y <span className="highlight-box-inline">orgullo</span> por el trabajo realizado.
+          Finalmente, las luces se encendieron, el público tomó asiento y los jueces regresaron al escenario listos para anunciar los resultados.
+        </p>
+      </div>
+    </div>
+  </div>
+  {/* Imagen horizontal grande de equipos ganadores */}
+<div className="taller-container">
+  <div className="shark-tank-image-full">
+    <img src={premiacion3} alt="Equipos ganadores" />
+  </div>
+
+  {/* Un cierre lleno de inspiración */}
+  <div className="shark-tank-decisiones">
+    <h2 className="shark-tank-subtitle-large">
+      Un cierre lleno de <span className="highlight-box">inspiración</span>
+    </h2>
+  </div>
+
+  {/* Grid: Texto izquierda + 2 imágenes derecha */}
+  <div className="premiacion-grid">
+    <div className="premiacion-text">
+      <p>
+        Con un mensaje de <span className="highlight-box-inline">reconocimiento</span>al esfuerzo y al talento demostrado, se dieron a conocer los nombres 
+        de los <span className="highlight-box-inline">cinco equipos seleccionados</span> destacaron por la solidez 
+        de sus propuestas, su capacidad para comunicar una visión clara y la pertinencia de las soluciones 
+        ofrecidas a los desafíos de sus comunidades. Entre aplausos, emociones y rostros llenos, la premiación 
+        marcó el cierre y reafirmó el compromiso con el liderazgo, innovación y compromiso social.
+      </p>
+      <p>
+        Así concluyó el Tec InnovAction Lab 2025:<span className="highlight-box-inline">celebrando a jovenes</span>que, con creatividad y determinación, 
+        demostraron que tienen todo para convertirse en los próximos <span className="highlight-box-inline">agentes de cambio.</span>
+      </p>
+    </div>
+
+    <div className="premiacion-images">
+      <div className="premiacion-image-item">
+        <img src={premiacion4} alt="Premiación momento 1" />
+      </div>
+      <div className="premiacion-image-item">
+        <img src={premiacion5} alt="Premiación momento 2" />
+      </div>
+    </div>
+  </div>
+
+  {/* Título final */}
+  <div className="shark-tank-decisiones">
+    <h2 className="shark-tank-subtitle-large">
+      Los equipos demostraron que la <span className="highlight-box">innovación no</span> tiene edad.
+    </h2>
+    <h2 className="shark-tank-subtitle-large" style={{ marginTop: '1rem' }}>
+      Cada propuesta dejó huella y <span className="highlight-box">motivó a toda</span>la comunidad.
+    </h2>
+  </div>
+</div>
+
 </section>
 
 
 
-    </div>
+</div>
+
+
     
   );
 }
