@@ -702,9 +702,7 @@ export default function Edicion2025() {
   {/* Título final */}
   <div className="shark-tank-decisiones">
     <h2 className="shark-tank-subtitle-large">
-      Los equipos demostraron que la <span className="highlight-box">innovación no</span> tiene edad.
-    </h2>
-    <h2 className="shark-tank-subtitle-large" style={{ marginTop: '1rem' }}>
+      Los equipos demostraron que la <span className="highlight-box">innovación no</span> tiene edad. 
       Cada propuesta dejó huella y <span className="highlight-box">motivó a toda</span>la comunidad.
     </h2>
   </div>
