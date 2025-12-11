@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 import til from '../assets/til.png';
-import foto_panel from '../assets/foto_panel.png';
 import inauguracion1 from '../assets/inauguracion1.jpeg';
 import inauguracion2 from '../assets/inauguracion2.jpeg';
 import inauguracion3 from '../assets/inauguracion3.jpeg';
+import panel1 from '../assets/panel_1.jpg';
 import taller_liderazgo from '../assets/taller_liderazgo.png';
 import taller1_1 from '../assets/taller1_1.png';
 import taller1_2 from '../assets/taller1_2.png';
 import taller2_1 from '../assets/taller2_1.png';
 import taller2_2 from '../assets/taller2_2.png';
-import taller2_3 from '../assets/taller2_3.png';
+import taller2_3 from '../assets/taller2_3.jpg';
 import taller3_1 from '../assets/taller3_1.png';
 import taller3_2 from '../assets/taller3_2.png';
-import taller3_3 from '../assets/taller3_3.png';
+import taller3_3 from '../assets/comunicacion3.jpeg';
 import comida1 from '../assets/comida1.jpeg';
 import comida2 from '../assets/comida2.jpeg';
 import comida3 from '../assets/comida3.jpeg';
@@ -71,7 +71,18 @@ export default function Edicion2025() {
   <div className="evento-header">
     <h1 className="evento-title">Inauguración</h1>
   </div>
-
+    {/* Galería de Fotos Inauguración */}
+  <div className="inauguracion-gallery">
+    <div className="gallery-image gallery-image-1">
+      <img src={inauguracion1} alt="Inauguración 1" />
+    </div>
+    <div className="gallery-image gallery-image-2">
+      <img src={inauguracion2} alt="Inauguración 2" />
+    </div>
+    <div className="gallery-image gallery-image-3">
+      <img src={inauguracion3} alt="Inauguración 3" />
+    </div>
+  </div>
   <div className="evento-content">
     <p>
       El Centro de Convenciones se llenó de <span className="highlight-box-inline">entusiasmo</span> y <span className="highlight-box-inline">expectativas</span> 
@@ -94,18 +105,7 @@ export default function Edicion2025() {
     </p>
   </div>
 
-  {/* Galería de Fotos Inauguración */}
-  <div className="inauguracion-gallery">
-    <div className="gallery-image gallery-image-1">
-      <img src={inauguracion1} alt="Inauguración 1" />
-    </div>
-    <div className="gallery-image gallery-image-2">
-      <img src={inauguracion2} alt="Inauguración 2" />
-    </div>
-    <div className="gallery-image gallery-image-3">
-      <img src={inauguracion3} alt="Inauguración 3" />
-    </div>
-  </div>
+  
 </section>
 
 
@@ -157,7 +157,7 @@ export default function Edicion2025() {
           </div>
 
           <div className="panel-image">
-            <img src={foto_panel} alt="Panel Discussion" />
+            <img src={panel1} alt="Panel Discussion" />
           </div>
         </div>
 
