@@ -1,18 +1,8 @@
 import { useState } from 'react';
 import til from './assets/til.png';
 import premiacion_principal from './assets/premiacion_principal.png';
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { HashRouter } from 'react-router-dom'
-import App from './App.css'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
-  </React.StrictMode>
-)
+import './App.css';
+import { Link } from "react-router-dom";
 
 export default function TecInnovationLab() {
   return (
