@@ -296,7 +296,7 @@ export default function TecInnovationLab() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-          <p>&copy; 2024 Tec Innovaction Lab - Tecnológico de Monterrey Campus Puebla</p>
+          <p>&copy; 2025 Tec Innovaction Lab - Tecnológico de Monterrey Campus Puebla</p>
         </div>
       </footer>
     </div>
