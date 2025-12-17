@@ -5,6 +5,12 @@ import './App.css';
 import { Link } from "react-router-dom";
 
 export default function TecInnovationLab() {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="tec-container">
       {/* Navigation */}
@@ -14,12 +20,12 @@ export default function TecInnovationLab() {
             <img src={til} alt="TEC Innovation Lab Logo" className="logo-img"/>
           </div>
           <ul className="nav-menu">
-            <li><a href="#que-es">¿Qué es TIL?</a></li>
-            <li><a href="#como-funciona">¿Cómo funciona?</a></li>
-            <li><a href="#numeralia">Numeralia</a></li>
-            <li><a href="#proyectos">Nuestros Proyectos</a></li>
-            <li><a href="#creditos">Créditos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a onClick={() => scrollToSection('que-es')}>¿Qué es TIL?</a></li>
+            <li><a onClick={() => scrollToSection('como-funciona')}>¿Cómo funciona?</a></li>
+            <li><a onClick={() => scrollToSection('numeralia')}>Numeralia</a></li>
+            <li><a onClick={() => scrollToSection('proyectos')}>Nuestros Proyectos</a></li>
+            <li><a onClick={() => scrollToSection('creditos')}>Créditos</a></li>
+            <li><a onClick={() => scrollToSection('contacto')}>Contacto</a></li>
             <li><Link to="/edicion-2025">Edición 2025</Link></li>
           </ul>
         </div>
