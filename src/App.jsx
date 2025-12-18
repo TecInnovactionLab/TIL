@@ -241,13 +241,12 @@ export default function TecInnovationLab() {
 
           <div className="credit-category">
             <h3 className="credit-title">Uriel Beltrán Quiroz</h3>
-            <p className="credit-text">Estudiante de 3er semestre en Ingeniería en Biotecnología (IBT)</p>
+            <p className="credit-text">Estudiante en Ingeniería en Biotecnología (IBT)</p>
             <p className="credit-text">Contribuyó en el área de operaciones en cuánto a materiales y planeación, así como publicaciones en redes sociales con guiones y contenido. En el evento asistió como staff en diferentes áreas y momentos.</p>
           </div>
 
           <div className="credit-category">
             <h3 className="credit-title">Bacilio Eduardo Aniceto Ojeda</h3>
-            <p className="credit-text">Gobierno de Puebla</p>
             <p className="credit-text">Contribuyó en el área de Actividades, publicaciones en redes sociales con contenido y resumen de guión.</p>
             <p className="credit-text">Durante el evento asistió como staff en diferentes etapas y áreas del evento.</p>
           </div>
@@ -259,14 +258,91 @@ export default function TecInnovationLab() {
           </div>
 
           <div className="credit-category">
+            <h3 className="credit-title">Eva Estafanía Torres Ávila</h3>
+            <p className="credit-text">Estudiante de Ingeniería en Biotecnología (IBT).</p>
+            <p className="credit-text">Contribuyó en el diseño de contenido en Instagram, la planeación del show del TIL y fue como staff en el evento.</p>
+          </div>
+
+          <div className="credit-category">
             <h3 className="credit-title">Frida Sophia Carreño Espinosa</h3>
-            <p className="credit-text">Estudiante en licenciatura en Diseño Industrial</p>
+            <p className="credit-text">Estudiante en licenciatura en Diseño Industrial.</p>
           </div>
 
           <div className="credit-category">
             <h3 className="credit-title">Isabella Katt Dávila</h3>
-            <p className="credit-text">Estudiante en licenciatura en Diseño Industrial</p>
+            <p className="credit-text">Estudiante en licenciatura en Diseño Industrial.</p>
           </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Rodrigo Osornio Sánchez</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Esmeralda del Rocio García Hernández</h3>
+            <p className="credit-text">Ingeniería en Innovación y Transformación de Negocios (BME).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Marlon Yahir Martínez Chacón</h3>
+            <p className="credit-text">Ingeniería en Tecnologías Computacionales (ITC).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Andrea Rocha Otero</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">André Calmus González</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Juan Ignacio Del Río Acevedo</h3>
+            <p className="credit-text">Licenciatura en Arte Digital (LAD).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Emilio Flores Cerwinka</h3>
+            <p className="credit-text">Licenciatura en Diseño (LDI).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Alejandro Flores Hernández</h3>
+            <p className="credit-text">Licenciatura en Economía (LEC).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">David Francisco Sánchez Capilla</h3>
+            <p className="credit-text">Ingeniería en Innovación y Transformación de Negocios (BME).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Gadiro Cano Sánchez</h3>
+            <p className="credit-text">Ingeniería en Tecnologías Computacionales (ITC).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Restituto Lara Larios</h3>
+            <p className="credit-text">Ingeniería en Tecnologías Computacionales (ITC).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Sebastián Medina Zamora</h3>
+            <p className="credit-text">Licenciatura en Esterategia y Transformacion de Negocios (LAE).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Andrea Reyes Flores</h3>
+            <p className="credit-text">Licenciatura en Esterategia y Transformacion de Negocios (LAE).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">María Fenanda Ortega Torres</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+          </div>
+
         </div>
       </section>
 
