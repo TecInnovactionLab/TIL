@@ -231,7 +231,7 @@ export default function Edicion2025() {
             <div className="taller-description-column">
               <p>
                 En la Sala de Relaciones Internacionales se llevó a cabo el taller de Liderazgo Público con el eje
-                “Transforma la inseguridad en áreas de oportunidad”. Fue un espacio para hablar de frente del síndrome del impostor,
+                <span className="highlight-box-inline">“Transforma la inseguridad en áreas de oportunidad”.</span> Fue un espacio para hablar de frente del síndrome del impostor,
                 ese <span className="highlight-box-inline">miedo</span> tan común en personas de alto desempeño que pocas veces se reconoce abiertamente.
               </p>
               <p>
@@ -254,8 +254,9 @@ export default function Edicion2025() {
               <p>
                 Además, se exploraron estrategias prácticas de identificación de errores sin caer en la culpa,
                 de autenticidad para reconocer logros y liderar desde quiénes somos realmente, y de resiliencia
-                para transformar la inseguridad en <span className="highlight-box-inline">confianza</span>. El taller se vivió como un espacio dinámico para  
-                formar líderes públicos más conscientes y seguros de sí mismos, guiado por Cristóbal Rodríguez.
+                para transformar la inseguridad en <span className="highlight-box-inline">confianza</span>. 
+                El taller se vivió como un espacio dinámico para  
+                formar líderes públicos más conscientes y seguros de sí mismos, guiado por <span className="highlight-box-inline">Cristóbal Rodríguez.</span>
               </p>
             </div>
           </div>
@@ -356,8 +357,8 @@ export default function Edicion2025() {
   <div className="taller-description">
     <div className="taller-description-column">
       <p>
-        En el HUB de Emprendimiento se llevó a cabo el taller <span className="highlight-box">"Armando tu PITCH"</span>, 
-        impartido por Leticia Tellería, donde los estudiantes aprendieron a comunicar sus ideas con claridad, intención e impacto.
+        En el HUB de Emprendimiento se llevó a cabo el taller <span className="highlight-box">"Armando tu PITCH",</span> 
+        impartido por <span className="highlight-box-inline">Leticia Tellería,</span> donde los estudiantes aprendieron a comunicar sus ideas con claridad, intención e impacto.
       </p>
       <p>
         Durante la sesión, los asistentes aprendieron cómo construir un pitch <span className="highlight-box-inline">claro,</span>
