@@ -41,6 +41,12 @@ import rincon1 from '../assets/rincon1.jpeg';
 import './Edicion2025.css';
 
 export default function Edicion2025() {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="tec-container">
       {/* Navigation */}
@@ -56,13 +62,13 @@ export default function Edicion2025() {
             </Link>
           </div>
           <ul className="nav-menu-edicion">
-            <li><a href="#inauguracion">Inauguración</a></li>
-            <li><a href="#panel">Panel</a></li>
-            <li><a href="#talleres">Talleres</a></li>
-            <li><a href="#rincón">Rincón de Agentes de Cambio</a></li>
-            <li><a href="#break">Break</a></li>
-            <li><a href="#shark-tank">Shark Tank</a></li>
-            <li><a href="#premiacion">Premiación</a></li>
+            <li><a onClick={() => scrollToSection('inauguracion')}>Inauguración</a></li>
+            <li><a onClick={() => scrollToSection('panel')}>Panel</a></li>
+            <li><a onClick={() => scrollToSection('talleres')}>Talleres</a></li>
+            <li><a onClick={() => scrollToSection('rincón')}>Rincón de Agentes de Cambio</a></li>
+            <li><a onClick={() => scrollToSection('break')}>Break</a></li>
+            <li><a onClick={() => scrollToSection('shark-tank')}>Shark Tank</a></li>
+            <li><a onClick={() => scrollToSection('premiacion')}>Premiación</a></li>
           </ul>
         </div>
       </nav>

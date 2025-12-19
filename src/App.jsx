@@ -1,10 +1,16 @@
 import { useState } from 'react';
 import til from './assets/til.png';
+import premiacion_principal from './assets/premiacion_principal.png';
 import './App.css';
 import { Link } from "react-router-dom";
 
-
 export default function TecInnovationLab() {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="tec-container">
       {/* Navigation */}
@@ -14,12 +20,12 @@ export default function TecInnovationLab() {
             <img src={til} alt="TEC Innovation Lab Logo" className="logo-img"/>
           </div>
           <ul className="nav-menu">
-            <li><a href="#inauguracion">¿Qué es TIL?</a></li>
-            <li><a href="#panel">¿Como funciona?</a></li>
-            <li><a href="#talleres">Numeralia</a></li>
-            <li><a href="#mesas">Nuestros Proyectos</a></li>
-            <li><a href="#shark-tank">Contacto</a></li>
-            <li><a href="#premiacion">Créditos</a></li>
+            <li><a onClick={() => scrollToSection('que-es')}>¿Qué es TIL?</a></li>
+            <li><a onClick={() => scrollToSection('como-funciona')}>¿Cómo funciona?</a></li>
+            <li><a onClick={() => scrollToSection('numeralia')}>Numeralia</a></li>
+            <li><a onClick={() => scrollToSection('proyectos')}>Nuestros Proyectos</a></li>
+            <li><a onClick={() => scrollToSection('creditos')}>Créditos</a></li>
+            <li><a onClick={() => scrollToSection('contacto')}>Contacto</a></li>
             <li><Link to="/edicion-2025">Edición 2025</Link></li>
           </ul>
         </div>
@@ -29,15 +35,8 @@ export default function TecInnovationLab() {
       <section className="hero">
         <div className="hero-content">
           <p className="hero-title">
-            Innova, <br />Crea y
-            Transforma <br />el
-            Futuro
+            Innova, <br />Crea y<br />Transforma <br />el Futuro
           </p>
-          {/* <p className="hero-description">
-            Realizamos <span className="highlight">un web, brand identity y content creation</span> que pretendió<br />
-            ser marco, uso diario<br />
-            y el legado del evento.
-          </p> */}
         </div>
       </section>
 
@@ -46,14 +45,14 @@ export default function TecInnovationLab() {
         <div className="main-image">
           <div className="image-content">
             <div className="brand-display">
-                <img src={til} alt="TIL" className="logo-imagen"/>          
+              <img src={premiacion_principal} alt="TIL" className="premiacion-imagen"/>
             </div>
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="about-section">
+      <section id="que-es" className="about-section">
         <h2 className="about-title">
           ¿Qué es el <span className="highlight-red">Tec Innovaction Lab</span>?
         </h2>
@@ -62,16 +61,320 @@ export default function TecInnovationLab() {
           <p className="about-text">
             El Tec Innovaction Lab es un laboratorio ciudadano del Tecnológico de Monterrey orientado a fortalecer la participación juvenil en la vida 
             pública. A través de herramientas de innovación pública, metodologías ágiles y un enfoque contextualizado en las realidades locales, el 
-            Programa invita a los jóvenes a <span className="underline-red">involucrarse en la universidad</span> para que se conviertan en agentes activos de transformación social.
+            Programa tiene como proposito impulsar a las juventudes para que se <span className="underline-red">conviertan en agentes activos de 
+            transformación social</span>.
           </p>
           
           <p className="about-text">
             El laboratorio surge ante la limitada participación de las y los jóvenes en procesos de toma de decisiones y en el desempeño local sostenible. 
-            En su primera edición en Puebla, el Tec Innovaction Lab se enfocó en fomentar la colaboración entre <span className="underline-red">juventud, gobierno, industria y ciudadanía</span> donde las ideas estudiantes 
-            pueden traducirse en acciones concretas con impacto comunitario.
+            Frente a esta necesidad, el Tec Innovaction Lab ofrece un <span className="underline-red">espacio estructurado, inclusivo y colaborativo</span> donde 
+            las ideas estudiantiles pueden traducirse en acciones concretas con impacto comunitario. 
           </p>
         </div>
       </section>
+
+      {/* Como Funciona Section */}
+      <section id="como-funciona" className="how-it-works">
+        <h2 className="section-title">¿Cómo funciona?</h2>
+
+        <div className="function-intro">
+          <p className="projects-text">
+            El proyecto articula a estudiantes, gobierno, academia, sector privado y sociedad civil en un ejercicio de <br></br>co-creación orientado a 
+            resolver desafíos públicos. Sus líneas de trabajo se organizan en seis ejes estratégicos:
+          </p>
+        </div>
+        
+        <div className="steps-container">
+          <div className="step">
+            <h3 className="step-title">Incidencia</h3>
+            <p className="step-description">
+              Promover la participación de juventudes en procesos públicos.
+            </p>
+          </div>
+
+          <div className="step">
+            <h3 className="step-title">Inteligencia Colectiva</h3>
+            <p className="step-description">
+              Integrar diversas perspectivas para el diseño de soluciones.
+            </p>
+          </div>
+
+          <div className="step">
+            <h3 className="step-title">Investigación Aplicada</h3>
+            <p className="step-description">
+              Generar análisis y datos útiles para la toma de decisiones.
+            </p>
+          </div>
+
+          <div className="step">
+            <h3 className="step-title">Inclusión </h3>
+            <p className="step-description">
+              Incorporar a jóvenes en situación de vulnerabilidad en procesos formativos
+            </p>
+          </div>
+
+          <div className="step">
+            <h3 className="step-title">Interacción</h3>
+            <p className="step-description">
+              Fomentar el diálogo intersectorial y la creación de redes colaborativas.
+            </p>
+          </div>
+
+          <div className="step">
+            <h3 className="step-title">Identidad creativa</h3>
+            <p className="step-description">
+              Impulsar la creatividad como elemento central de la innovación pública.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Numeralia Section */}
+      <section id="numeralia" className="numeralia-section">
+        <h2 className="section-title">Numeralia</h2>
+        
+        <div className="stats-grid">
+          <div className="stat-card">
+            <div className="stat-number">+100</div>
+            <div className="stat-label">Participantes de<br/>preparatoria</div>
+          </div>
+
+          <div className="stat-card">
+            <div className="stat-number">+50</div>
+            <div className="stat-label">Estudiantes de<br/>profesional</div>
+          </div>
+
+          <div className="stat-card">
+            <div className="stat-number">+25</div>
+            <div className="stat-label">Profesores y<br/>profesoras</div>
+          </div>
+
+          <div className="stat-card">
+            <div className="stat-number">+5</div>
+            <div className="stat-label">Aliados<br/>estratégicos</div>
+          </div>
+
+          <div className="stat-card">
+            <div className="stat-number">+10</div>
+            <div className="stat-label">EXATEC</div>
+          </div>
+
+          <div className="stat-card">
+            <div className="stat-number">+4</div>
+            <div className="stat-label">Medios de<br/>comunicación</div>
+          </div>
+
+          <div className="stat-card">
+            <div className="stat-number">+30</div>
+            <div className="stat-label">Personas<br/>asesoras</div>
+          </div>
+        </div>
+      </section>
+
+      {/* Proyectos Section */}
+      <section id="proyectos" className="projects-section">
+        <h2 className="section-title">Nuestros Proyectos</h2>
+        
+        <div className="projects-intro">
+          <p className="projects-text">
+            Durante la primera edición del Tec Innovaction Lab, estudiantes de diversas carreras y niveles trabajaron en proyectos 
+            que abordan desafíos reales de la comunidad. Estos son algunos de los proyectos destacados:
+          </p>
+        </div>
+
+        <div className="projects-grid">
+          <div className="project-card">
+            <h3 className="project-title">Cuidado del agua</h3>
+          </div>
+
+          <div className="project-card">
+            <h3 className="project-title">Ayuda en las comunidades</h3>
+          </div>
+
+          <div className="project-card">
+            <h3 className="project-title">Educación para todos</h3>
+          </div>
+        </div>
+      </section>
+
+      {/* Creditos Section */}
+      <section id="creditos" className="credits-section">
+        <h2 className="section-title">Créditos</h2>
+        
+        <div className="credits-content">
+          <div className="credit-category">
+            <h3 className="credit-title">Nadia Nohemí Gil Hernández</h3>
+            <p className="credit-text">Estudiante de la Licenciatura en Economía (LEC)</p>
+            <p className="credit-text">Contribuyó como líder social de la implementación y gestión del proyecto.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Darío Alberto Sanchez Perzabal</h3>
+            <p className="credit-text">Estudiante de 5to semestre de Ingeniería en Robótica y Sistemas Digitales (IRS).</p>
+            <p className="credit-text">Contribuyó al desarrollo de un chatbot y una página web.</p>
+            <p className="credit-text">Además, participó como staff en eventos del laboratorio, apoyando en la logística y organización.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Dariana Vega Morales</h3>
+            <p className="credit-text">Estudiante de Ingeniería en Ingeniería en Sistemas Computacionales (ITC)</p>
+            <p className="credit-text">Contribuyó al desarrollo de la página web del proyecto.</p>
+            <p className="credit-text">También, contribuyo en la creación y publicación del contenido de redes sociales y participó como staff en el evento del laboratorio.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Amado Martínez González</h3>
+            <p className="credit-text">Estudiante de la Licenciatura en Relaciones Internacionales (LRI) y Licenciatura en Economía (LEC)</p>
+            <p className="credit-text">Contribuyó a la planeación del show del TIL, como en la creación de los guiones del evento y la estructura de la agenda.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Karen Arlette Segura Bartolo</h3>
+            <p className="credit-text">Estudiante de Diseño, contribuyó mediante la elaboración de contenido para redes sociales así como para su publicación, también participo en la elaboración y cuidado visual de los materiales del proyecto.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Janet Ojeda Cano</h3>
+            <p className="credit-text">Estudiante de Arquitectura (ARQ)</p>
+            <p className="credit-text">Contribuyó a la creación de contenido en redes sociales y colaboró en la organización, preparación operativa y revisión de materiales para el evento.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Uriel Beltrán Quiroz</h3>
+            <p className="credit-text">Estudiante en Ingeniería en Biotecnología (IBT)</p>
+            <p className="credit-text">Contribuyó en el área de operaciones en cuánto a materiales y planeación, así como publicaciones en redes sociales con guiones y contenido. En el evento asistió como staff en diferentes áreas y momentos.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Bacilio Eduardo Aniceto Ojeda</h3>
+            <p className="credit-text">Contribuyó en el área de Actividades, publicaciones en redes sociales con contenido y resumen de guión.</p>
+            <p className="credit-text">Durante el evento asistió como staff en diferentes etapas y áreas del evento.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Michelle Hernández Brito</h3>
+            <p className="credit-text">Estudiante de Licenciatura en Inteligencia de Negocios (LIT)</p>
+            <p className="credit-text">Contribuyó en el área de investigación, diseño de contenido digital, además de apoyar como staff del evento.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Eva Estafanía Torres Ávila</h3>
+            <p className="credit-text">Estudiante de Ingeniería en Biotecnología (IBT).</p>
+            <p className="credit-text">Contribuyó en el diseño de contenido en Instagram, la planeación del show del TIL y fue como staff en el evento.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Frida Sophia Carreño Espinosa</h3>
+            <p className="credit-text">Estudiante en licenciatura en Diseño Industrial.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Isabella Katt Dávila</h3>
+            <p className="credit-text">Estudiante en licenciatura en Diseño Industrial.</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Rodrigo Osornio Sánchez</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Esmeralda del Rocio García Hernández</h3>
+            <p className="credit-text">Ingeniería en Innovación y Transformación de Negocios (BME).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Marlon Yahir Martínez Chacón</h3>
+            <p className="credit-text">Ingeniería en Tecnologías Computacionales (ITC).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Andrea Rocha Otero</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">André Calmus González</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Juan Ignacio Del Río Acevedo</h3>
+            <p className="credit-text">Licenciatura en Arte Digital (LAD).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Emilio Flores Cerwinka</h3>
+            <p className="credit-text">Licenciatura en Diseño (LDI).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Alejandro Flores Hernández</h3>
+            <p className="credit-text">Licenciatura en Economía (LEC).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">David Francisco Sánchez Capilla</h3>
+            <p className="credit-text">Ingeniería en Innovación y Transformación de Negocios (BME).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Gadiro Cano Sánchez</h3>
+            <p className="credit-text">Ingeniería en Tecnologías Computacionales (ITC).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Restituto Lara Larios</h3>
+            <p className="credit-text">Ingeniería en Tecnologías Computacionales (ITC).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Sebastián Medina Zamora</h3>
+            <p className="credit-text">Licenciatura en Esterategia y Transformacion de Negocios (LAE).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Andrea Reyes Flores</h3>
+            <p className="credit-text">Licenciatura en Esterategia y Transformacion de Negocios (LAE).</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">María Fenanda Ortega Torres</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+          </div>
+
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contacto" className="contact-section">
+        <h2 className="section-title">Contacto</h2>
+        
+        <div className="contact-content">
+          <p className="contact-text">
+            ¿Tienes preguntas o quieres participar en la próxima edición?
+          </p>
+          
+          <div className="contact-info">
+            <div className="contact-item">
+              <strong>Instagram:</strong> @tecinnovactionlab
+            </div>
+            <div className="contact-item">
+              <strong>Tik tok:</strong> @tecinnovactionlab
+            </div>
+            <div className="contact-item">
+              <strong>Ubicación:</strong> Campus Puebla, Tecnológico de Monterrey
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="footer">
+        <div className="footer-content">
+          <p>&copy; 2025 Tec Innovaction Lab - Tecnológico de Monterrey Campus Puebla</p>
+        </div>
+      </footer>
     </div>
   );
 }
