@@ -92,12 +92,12 @@ body, html {
 
 /* Secciones de Eventos */
 .evento-section {
-  padding: 8rem 5rem 5rem;
+  padding: 12rem 5rem 5rem;
   max-width: 100vw;
   width: 100%;
   margin: 0 auto;
   background-color: #000;
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 12rem;
   overflow-x: hidden;
   box-sizing: border-box;
 }
@@ -770,7 +770,8 @@ body, html {
   }
 
   .evento-section {
-    padding: 6rem 2rem 4rem;
+    padding: 11rem 2rem 4rem; 
+    scroll-margin-top: 11rem; 
   }
 
   .evento-title {
@@ -929,7 +930,8 @@ body, html {
   }
 
   .evento-section {
-    padding: 5rem 1.5rem 3rem;
+    padding: 10rem 1.5rem 3rem;    
+    scroll-margin-top: 12rem;
   }
 
   .evento-title {
@@ -1129,7 +1131,8 @@ body, html {
   }
 
   .evento-section {
-    padding: 4rem 1rem 2.5rem;
+    padding: 9rem 1rem 2.5rem;    
+    scroll-margin-top: 13rem;
   }
 
   .evento-title {
