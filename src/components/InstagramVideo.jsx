@@ -8,7 +8,10 @@ export default function InstagramVideo({ url, thumbnail, title }) {
       aria-label={`Ver ${title} en Instagram`}
     >
       <img src={thumbnail} alt={title} />
-      <div className="play-btn">▶</div>
+      <div className="play-btn">
+        <span className="play-icon">▶</span>
+    </div>
+
     </a>
   );
 }
