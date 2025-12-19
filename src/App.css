@@ -639,6 +639,41 @@ html, body {
   box-shadow: 0 0.5rem 1.5rem rgba(230, 57, 70, 0.3);
   border-color: #E63946;
 }
+/* Asegura que el wrapper se adapte al alto del contenido */
+.video-wrapper-project {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/* Instagram Embed - Mismo estilo que YouTube */
+.video-wrapper-project .instagram-media {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Contenedor del video Instagram */
+.video-wrapper-project iframe {
+  width: 100% !important;
+  border: none !important;
+  border-radius: 12px;
+}
+
+/* Placeholder mientras carga (opcional - lo hace más bonito) */
+.video-wrapper-project blockquote {
+  background: transparent !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+  min-height: 500px;
+  position: relative;
+}
+
+/* Loading spinner de Instagram (lo integra mejor) */
+.instagram-media .tempest-loading {
+  border-radius: 12px;
+}
 
 .project-video-wrapper {
   position: relative;
@@ -655,6 +690,38 @@ html, body {
   width: 100%;
   height: 100%;
   border: none;
+}
+.video-thumb {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #000;
+}
+
+.video-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
 }
 
 .project-info {

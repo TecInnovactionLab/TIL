@@ -2,8 +2,31 @@ import { useState } from 'react';
 import til from './assets/til.png';
 import premiacion_principal from './assets/premiacion_principal.png';
 import patrocinadores from './assets/patrocinadores.png';
+import fenixThumb from "./assets/fenix_instagram.png";
+import equaliaThumb from "./assets/equalia_instagram.png";
+import PueblatiraThumb from "./assets/loquepueblatira_instagram.png";
+import InstagramVideo from "./components/InstagramVideo";
 import './App.css';
 import { Link } from "react-router-dom";
+// import { useEffect } from "react";
+
+// function InstagramEmbed() {
+//   useEffect(() => {
+//     if (window.instgrm) {
+//       window.instgrm.Embeds.process();
+//     }
+//   }, []);
+
+//   return (
+//     <blockquote
+//       className="instagram-media"
+//       data-instgrm-permalink="https://www.instagram.com/reel/DP72JgODDrS/"
+//       data-instgrm-version="14"
+//     >
+//       <a href="https://www.instagram.com/reel/DP72JgODDrS/"></a>
+//     </blockquote>
+//   );
+// }
 
 export default function TecInnovationLab() {
   const scrollToSection = (id) => {
@@ -202,7 +225,7 @@ export default function TecInnovationLab() {
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://www.youtube.com/shorts/0gIbOXJkmb8"
+          src="https://www.youtube.com/embed/0gIbOXJkmb8"
           title="Proyecto 1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -220,7 +243,7 @@ export default function TecInnovationLab() {
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://youtube.com/shorts/WomCw8M_mOk"
+          src="https://youtube.com/embed/WomCw8M_mOk"
           title="Proyecto 2"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -238,7 +261,7 @@ export default function TecInnovationLab() {
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://www.youtube.com/shorts/ajPumQZUn7E"
+          src="https://www.youtube.com/embed/ajPumQZUn7E"
           title="Proyecto 3"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -256,7 +279,7 @@ export default function TecInnovationLab() {
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://www.youtube.com/shorts/C2kfPmxpkyM"
+          src="https://www.youtube.com/embed/C2kfPmxpkyM"
           title="Proyecto 4"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -271,7 +294,7 @@ export default function TecInnovationLab() {
     </div>
 
     {/* Video 5 */}
-    <div className="project-video-card">
+    {/* <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
           src="https://www.instagram.com/reel/DP77JUhDYNx/"
@@ -286,31 +309,27 @@ export default function TecInnovationLab() {
           MUN Bridge
         </p>
       </div>
-    </div>
-
-    {/* Video 6 */}
-    <div className="project-video-card">
-      <div className="video-wrapper-project">
-        <iframe
-          src="https://www.instagram.com/reel/DP8HCD2jf2e/"
-          title="Proyecto 6"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-      <div className="project-video-info">
-        <h3 className="project-video-title">IMEX</h3>
-        <p className="project-video-description">
-          Lo que Puebla Tira
-        </p>
-      </div>
-    </div>
+    </div> */}
+{/* Video 6 */}
+<div className="project-video-card">
+  <div className="video-wrapper-project">
+    <InstagramVideo
+      url="https://www.instagram.com/reel/DP8HCD2jf2e/"
+      thumbnail={PueblatiraThumb}
+      title="IMEX - Lo que Puebla Tira"
+    />
+  </div>
+  <div className="project-video-info">
+    <h3 className="project-video-title">IMEX</h3>
+    <p className="project-video-description">Lo que Puebla Tira</p>
+  </div>
+</div>
 
     {/* Video 7 */}
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://youtube.com/shorts/50sRFjr1MO0"
+          src="https://youtube.com/embed/50sRFjr1MO0"
           title="Proyecto 7"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -323,27 +342,24 @@ export default function TecInnovationLab() {
         </p>
       </div>
     </div>
+{/* Video 8 */}
+<div className="project-video-card">
+  <div className="video-wrapper-project">
+    <InstagramVideo
+      url="https://www.instagram.com/reel/DP7t6D2jeoz/"
+      thumbnail={equaliaThumb}
+      title="Prepa Tec - Equalia"
+    />
+  </div>
+  <div className="project-video-info">
+    <h3 className="project-video-title">Prepa Tec</h3>
+    <p className="project-video-description">Equalia</p>
+  </div>
+</div>
 
-    {/* Video 8 */}
-    <div className="project-video-card">
-      <div className="video-wrapper-project">
-        <iframe
-          src="https://www.instagram.com/reel/DP7t6D2jeoz/"
-          title="Proyecto 8"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-      <div className="project-video-info">
-        <h3 className="project-video-title">Prepa Tec</h3>
-        <p className="project-video-description">
-          Equalia
-        </p>
-      </div>
-    </div>
 
     {/* Video 9 */}
-    <div className="project-video-card">
+    {/* <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
           src="https://www.instagram.com/reel/DP7tO7hjW_M/"
@@ -358,13 +374,13 @@ export default function TecInnovationLab() {
           Corte Yorkina
         </p>
       </div>
-    </div>
+    </div> */}
 
     {/* Video 10 */}
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://www.youtube.com/shorts/0DYGoh9WjSA"
+          src="https://www.youtube.com/embed/0DYGoh9WjSA"
           title="Proyecto 10"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -377,30 +393,42 @@ export default function TecInnovationLab() {
         </p>
       </div>
     </div>
+    
+{/* Video 11 */}
+{/* <div className="project-video-card">
+  <div className="video-wrapper-project">
+    <InstagramEmbed />
+  </div>
 
-    {/* Video 11 */}
-    <div className="project-video-card">
-      <div className="video-wrapper-project">
-        <iframe
-          src="https://www.instagram.com/reel/DP72JgODDrS/"
-          title="Proyecto 11"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-      <div className="project-video-info">
-        <h3 className="project-video-title">Victoria</h3>
-        <p className="project-video-description">
-          Fénix
-        </p>
-      </div>
-    </div>
+  <div className="project-video-info">
+    <h3 className="project-video-title">Victoria</h3>
+    <p className="project-video-description">Fénix</p>
+  </div>
+</div> */}
+
+{/* Video 11 */}
+<div className="project-video-card">
+  <div className="video-wrapper-project">
+    <InstagramVideo
+      url="https://www.instagram.com/reel/DP72JgODDrS/"
+      thumbnail={fenixThumb}
+      title="Victoria - Fénix"
+    />
+  </div>
+  <div className="project-video-info">
+    <h3 className="project-video-title">Victoria</h3>
+    <p className="project-video-description">Fénix</p>
+  </div>
+</div>
+
+
+
 
     {/* Video 12 */}
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://www.youtube.com/watch?v=HHUhVRTt43k"
+          src="https://www.youtube.com/embed/HHUhVRTt43k"
           title="Proyecto 12"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -418,7 +446,7 @@ export default function TecInnovationLab() {
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://www.youtube.com/watch?v=LmvGmtZk-0w"
+          src="https://www.youtube.com/embed/LmvGmtZk-0w"
           title="Proyecto 13"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -436,7 +464,7 @@ export default function TecInnovationLab() {
     <div className="project-video-card">
       <div className="video-wrapper-project">
         <iframe
-          src="https://www.youtube.com/shorts/PUXqTUR51u8"
+          src="https://www.youtube.com/embed/PUXqTUR51u8"
           title="Proyecto 14"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
