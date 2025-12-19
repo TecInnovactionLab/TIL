@@ -36,6 +36,7 @@ import premiacion2 from '../assets/premiacion2.jpeg';
 import premiacion3 from '../assets/premiacion3.png';
 import premiacion4 from '../assets/premiacion4.png';
 import premiacion5 from '../assets/premiacion5.png';
+import rincon1 from '../assets/rincon1.jpeg';
 
 import './Edicion2025.css';
 
@@ -433,7 +434,7 @@ export default function Edicion2025() {
 
   <div className="rincon-content-grid">
     <div className="rincon-image">
-      <img src={til} alt="Rincón de Agentes de Cambio" />
+      <img src={rincon1} alt="Rincón de Agentes de Cambio" />
     </div>
 
     <div className="rincon-text">
