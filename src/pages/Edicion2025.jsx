@@ -406,7 +406,7 @@ export default function Edicion2025() {
     <div className="video-item">
       <div className="video-wrapper">
         <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_1"
+          src="https://www.youtube.com/embed/ouQ9Tu93YN0"
           title="Tallerista Natalia Arriaga"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -419,7 +419,7 @@ export default function Edicion2025() {
     <div className="video-item">
       <div className="video-wrapper">
         <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_2"
+          src="https://www.youtube.com/embed/90SkPIw3ZzQ"
           title="Tallerista Cristóbal Rodríguez"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

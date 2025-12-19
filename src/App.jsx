@@ -83,16 +83,17 @@ export default function TecInnovationLab() {
         
         <div className="about-content">
           <p className="about-text">
-            El Tec Innovaction Lab es un laboratorio ciudadano del Tecnológico de Monterrey orientado a fortalecer la participación juvenil en la vida 
-            pública. A través de herramientas de innovación pública, metodologías ágiles y un enfoque contextualizado en las realidades locales, el 
-            Programa tiene como proposito impulsar a las juventudes para que se <span className="underline-red">conviertan en agentes activos de 
-            transformación social</span>.
+            El Tec InnovAction Lab es un espacio formativo y de vinculación que impulsa la innovación pública y 
+            el liderazgo social de las y los estudiantes del Tecnológico de Monterrey. Mediante metodologías de 
+            diseño centrado en las personas, pensamiento crítico, análisis de datos e inteligencia colectiva,   
+            el laboratorio conecta al estudiantado con actores gubernamentales, empresariales y de la sociedad 
+            civil para resolver desafíos reales de impacto comunitario.
           </p>
           
           <p className="about-text">
-            El laboratorio surge ante la limitada participación de las y los jóvenes en procesos de toma de decisiones y en el desempeño local sostenible. 
-            Frente a esta necesidad, el Tec Innovaction Lab ofrece un <span className="underline-red">espacio estructurado, inclusivo y colaborativo</span> donde 
-            las ideas estudiantiles pueden traducirse en acciones concretas con impacto comunitario. 
+            Es un ecosistema donde se experimenta, se aprende haciendo y se generan soluciones accionables que
+            fortalecen la vida pública, promueven la participación ciudadana y consolidan el compromiso del Tec
+            con el desarrollo sostenible y la transformación del país.
           </p>
         </div>
       </section>
@@ -119,7 +120,7 @@ export default function TecInnovationLab() {
           <div className="step">
             <h3 className="step-title">Inteligencia Colectiva</h3>
             <p className="step-description">
-              Integrar diversas perspectivas para el diseño de soluciones.
+              Integrar diversas perspectivas para el diseño público de soluciones a problemas locales.
             </p>
           </div>
 
@@ -133,7 +134,7 @@ export default function TecInnovationLab() {
           <div className="step">
             <h3 className="step-title">Inclusión </h3>
             <p className="step-description">
-              Incorporar a jóvenes en situación de vulnerabilidad en procesos formativos
+              Incorporar a jóvenes y grupos prioritarios en procesos formativos
             </p>
           </div>
 
@@ -201,7 +202,7 @@ export default function TecInnovationLab() {
         
         <div className="projects-intro">
           <p className="projects-text">
-            Durante la primera edición del Tec Innovaction Lab, estudiantes de diversas carreras y niveles trabajaron en proyectos 
+            Durante la octava edición del Tec Innovaction Lab, estudiantes de diversas carreras y semestres trabajaron en proyectos 
             que abordan desafíos reales de la comunidad. Estos son algunos de los proyectos destacados:
           </p>
         </div>
@@ -513,7 +514,7 @@ export default function TecInnovationLab() {
 
           <div className="credit-category">
             <h3 className="credit-title">Karen Arlette Segura Bartolo</h3>
-            <p className="credit-text">Estudiante de Diseño, contribuyó mediante la elaboración de contenido para redes sociales así como para su publicación, también participo en la elaboración y cuidado visual de los materiales del proyecto.</p>
+            <p className="credit-text">Estudiante de Diseño, contribuyó mediante la elaboración de contenido para redes sociales así como para su publicación, también participó en la elaboración y cuidado visual de los materiales del proyecto.</p>
           </div>
 
           <div className="credit-category">
