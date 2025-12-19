@@ -83,18 +83,19 @@ export default function TecInnovationLab() {
         
         <div className="about-content">
           <p className="about-text">
-            El Tec InnovAction Lab es un espacio formativo y de vinculación que impulsa la innovación pública y 
-            el liderazgo social de las y los estudiantes del Tecnológico de Monterrey. Mediante metodologías de 
-            diseño centrado en las personas, pensamiento crítico, análisis de datos e inteligencia colectiva,   
+            El Tec InnovAction Lab es un espacio formativo y de vinculación que impulsa la <span className="underline-red">innovación pública</span> y 
+            el <span className="underline-red">liderazgo</span> social de las y los estudiantes del Tecnológico de Monterrey. Mediante metodologías de 
+            diseño centrado en las personas,<span className="underline-red">pensamiento crítico</span>, <span className="underline-red">análisis de datos</span> e <span className="underline-red">inteligencia colectiva</span>,   
             el laboratorio conecta al estudiantado con actores gubernamentales, empresariales y de la sociedad 
             civil para resolver desafíos reales de impacto comunitario.
           </p>
           
           <p className="about-text">
-            Es un ecosistema donde se experimenta, se aprende haciendo y se generan soluciones accionables que
-            fortalecen la vida pública, promueven la participación ciudadana y consolidan el compromiso del Tec
-            con el desarrollo sostenible y la transformación del país.
+            Es un <span className="underline-red">ecosistema</span> donde se experimenta, se aprende haciendo y se generan soluciones accionables que
+            fortalecen la vida pública, promueven la <span className="underline-red">participación ciudadana</span> y consolidan el compromiso del Tec
+            con el <span className="underline-red">desarrollo sostenible</span> y la transformación del país.
           </p>
+          
         </div>
       </section>
 
