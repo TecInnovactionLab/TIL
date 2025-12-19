@@ -85,7 +85,7 @@ export default function TecInnovationLab() {
           <p className="about-text">
             El Tec InnovAction Lab es un espacio formativo y de vinculación que impulsa la <span className="underline-red">innovación pública</span> y 
             el <span className="underline-red">liderazgo</span> social de las y los estudiantes del Tecnológico de Monterrey. Mediante metodologías de 
-            diseño centrado en las personas,<span className="underline-red">pensamiento crítico</span>, <span className="underline-red">análisis de datos</span> e <span className="underline-red">inteligencia colectiva</span>,   
+            diseño centrado en las personas, <span className="underline-red">pensamiento crítico</span>, <span className="underline-red">análisis de datos</span> e <span className="underline-red">inteligencia colectiva</span>,   
             el laboratorio conecta al estudiantado con actores gubernamentales, empresariales y de la sociedad 
             civil para resolver desafíos reales de impacto comunitario.
           </p>
