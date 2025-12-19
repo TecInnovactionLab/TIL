@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import til from './assets/til.png';
 import premiacion_principal from './assets/premiacion_principal.png';
+import patrocinadores from './assets/patrocinadores.png';
 import './App.css';
 import { Link } from "react-router-dom";
 
@@ -195,6 +196,260 @@ export default function TecInnovationLab() {
             <h3 className="project-title">Educación para todos</h3>
           </div>
         </div>
+
+        <div className="projects-videos-grid">
+    {/* Video 1 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.youtube.com/shorts/0gIbOXJkmb8"
+          title="Proyecto 1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Atenas</h3>
+        <p className="project-video-description">
+          ECOGREEN
+        </p>
+      </div>
+    </div>
+
+    {/* Video 2 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://youtube.com/shorts/WomCw8M_mOk"
+          title="Proyecto 2"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Atenas</h3>
+        <p className="project-video-description">
+          SISET
+        </p>
+      </div>
+    </div>
+
+    {/* Video 3 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.youtube.com/shorts/ajPumQZUn7E"
+          title="Proyecto 3"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Atenas</h3>
+        <p className="project-video-description">
+          EcoTeamFuturePossible
+        </p>
+      </div>
+    </div>
+
+    {/* Video 4 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.youtube.com/shorts/C2kfPmxpkyM"
+          title="Proyecto 4"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Crecer</h3>
+        <p className="project-video-description">
+          El Consejo
+        </p>
+      </div>
+    </div>
+
+    {/* Video 5 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.instagram.com/reel/DP77JUhDYNx/"
+          title="Proyecto 5"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Crecer</h3>
+        <p className="project-video-description">
+          MUN Bridge
+        </p>
+      </div>
+    </div>
+
+    {/* Video 6 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.instagram.com/reel/DP8HCD2jf2e/"
+          title="Proyecto 6"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">IMEX</h3>
+        <p className="project-video-description">
+          Lo que Puebla Tira
+        </p>
+      </div>
+    </div>
+
+    {/* Video 7 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://youtube.com/shorts/50sRFjr1MO0"
+          title="Proyecto 7"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Prepa Tec</h3>
+        <p className="project-video-description">
+          O&O
+        </p>
+      </div>
+    </div>
+
+    {/* Video 8 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.instagram.com/reel/DP7t6D2jeoz/"
+          title="Proyecto 8"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Prepa Tec</h3>
+        <p className="project-video-description">
+          Equalia
+        </p>
+      </div>
+    </div>
+
+    {/* Video 9 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.instagram.com/reel/DP7tO7hjW_M/"
+          title="Proyecto 9"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Prepa Tec</h3>
+        <p className="project-video-description">
+          Corte Yorkina
+        </p>
+      </div>
+    </div>
+
+    {/* Video 10 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.youtube.com/shorts/0DYGoh9WjSA"
+          title="Proyecto 10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Trinity</h3>
+        <p className="project-video-description">
+          Microspora
+        </p>
+      </div>
+    </div>
+
+    {/* Video 11 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.instagram.com/reel/DP72JgODDrS/"
+          title="Proyecto 11"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Victoria</h3>
+        <p className="project-video-description">
+          Fénix
+        </p>
+      </div>
+    </div>
+
+    {/* Video 12 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.youtube.com/watch?v=HHUhVRTt43k"
+          title="Proyecto 12"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Victoria</h3>
+        <p className="project-video-description">
+          RenovaTez
+        </p>
+      </div>
+    </div>
+
+    {/* Video 13 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.youtube.com/watch?v=LmvGmtZk-0w"
+          title="Proyecto 13"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Woodcock</h3>
+        <p className="project-video-description">
+          SOS
+        </p>
+      </div>
+    </div>
+
+    {/* Video 14 */}
+    <div className="project-video-card">
+      <div className="video-wrapper-project">
+        <iframe
+          src="https://www.youtube.com/shorts/PUXqTUR51u8"
+          title="Proyecto 14"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="project-video-info">
+        <h3 className="project-video-title">Woodcock</h3>
+        <p className="project-video-description">
+          SERVITEX
+        </p>
+      </div>
+    </div>
+  </div>
       </section>
 
       {/* Creditos Section */}
@@ -372,7 +627,13 @@ export default function TecInnovationLab() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-          <p>&copy; 2025 Tec Innovaction Lab - Tecnológico de Monterrey Campus Puebla</p>
+          <p className="footer-text">
+            &copy; 2025 Tec Innovaction Lab - Tecnológico de Monterrey Campus Puebla
+          </p>
+          
+          <div className="footer-sponsors">
+            <img src={patrocinadores} alt="Patrocinador" className="sponsor-logo"/>
+          </div>
         </div>
       </footer>
     </div>

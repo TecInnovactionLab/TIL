@@ -395,7 +395,6 @@ body, html {
   margin-right: 0.25rem; /* Agrega espacio a la derecha de cada caja */
 }
 
-
 .taller-description {
   display: grid;
   grid-template-columns: 1fr 1fr;
