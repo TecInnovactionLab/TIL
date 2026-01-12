@@ -77,7 +77,7 @@ body {
 }
 
 .nav-menu li a:hover {
-  color: #E63946;
+  color: #D7453E;
 }
 
 .hero {
@@ -167,7 +167,7 @@ body {
 }
 
 .highlight-red {
-  color: #E63946;
+  color: #D7453E;
 }
 
 .about-content {
@@ -184,9 +184,9 @@ body {
 }
 
 .underline-red {
-  color: #E63946;
+  color: #D7453E;
   text-decoration: underline;
-  text-decoration-color: #E63946;
+  text-decoration-color: #D7453E;
   text-decoration-thickness: 0.125rem;
   text-underline-offset: 0.1875rem;
 }
@@ -245,20 +245,21 @@ body {
 
 .step:hover {
   transform: translateY(-0.5rem);
-  border-color: #E63946;
+  border-color: #D7453E;
+  /*  este es otro rojo: #E63946 */
 }
 
 .step-number {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 900;
-  color: #E63946;
+  color: #D7453E;
   margin-bottom: clamp(0.75rem, 2vw, 1rem);
 }
 
 .step-title {
   font-size: clamp(1.25rem, 3vw, 1.5rem);
   font-weight: 700;
-  color: #E63946;
+  color: #D7453E;
   margin-bottom: clamp(0.75rem, 2vw, 1rem);
   word-wrap: break-word;
 }
@@ -301,7 +302,7 @@ body {
   padding: clamp(1.5rem, 3vw, 2.5rem) clamp(1rem, 2.5vw, 2rem);
   border-radius: 0.5rem;
   text-align: center;
-  border: 2px solid #E63946;
+  border: 2px solid #D7453E;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex: 1 1 calc(25% - 2rem);
   min-width: min(100%, 12rem);
@@ -316,7 +317,7 @@ body {
 .stat-number {
   font-size: clamp(2.5rem, 6vw, 4rem);
   font-weight: 900;
-  color: #E63946;
+  color: #D7453E;
   margin-bottom: clamp(0.75rem, 2vw, 1rem);
 }
 
@@ -378,7 +379,7 @@ body {
 .project-card:hover {
   transform: translateY(-0.5rem);
   box-shadow: 0 0.5rem 1.5rem rgba(230, 57, 70, 0.3);
-  border-color: #E63946;
+  border-color: #D7453E;
 }
 
 .project-video-wrapper {
@@ -439,9 +440,9 @@ body {
 .credit-title {
   font-size: clamp(1.1rem, 2.5vw, 1.25rem);
   font-weight: 700;
-  color: #E63946;
+  color: #D7453E;
   margin-bottom: clamp(0.75rem, 2vw, 1rem);
-  border-bottom: 2px solid #E63946;
+  border-bottom: 2px solid #D7453E;
   padding-bottom: clamp(0.4rem, 1vw, 0.5rem);
   word-wrap: break-word;
 }
@@ -490,14 +491,14 @@ body {
   padding: clamp(0.75rem, 2vw, 1rem);
   background-color: #1F1F1F;
   border-radius: 0.5rem;
-  border-left: 0.25rem solid #E63946;
+  border-left: 0.25rem solid #D7453E;
   word-wrap: break-word;
   overflow-wrap: break-word;
   width: 100%;
 }
 
 .contact-item strong {
-  color: #E63946;
+  color: #D7453E;
   margin-right: 0.5rem;
 }
 
@@ -572,7 +573,7 @@ html, body {
 .project-video-card:hover {
   transform: translateY(-0.5rem);
   box-shadow: 0 0.5rem 1.5rem rgba(230, 57, 70, 0.3);
-  border-color: #E63946;
+  border-color: #D7453E;
 }
 
 .video-wrapper-project {
@@ -726,7 +727,7 @@ html, body {
 .project-card:hover {
   transform: translateY(-0.5rem);
   box-shadow: 0 0.5rem 1.5rem rgba(230, 57, 70, 0.3);
-  border-color: #E63946;
+  border-color: #D7453E;
 }
 /* Asegura que el wrapper se adapte al alto del contenido */
 .video-wrapper-project {

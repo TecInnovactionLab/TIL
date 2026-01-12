@@ -87,7 +87,7 @@ body, html {
 }
 
 .nav-menu-edicion li a:hover {
-  color: #E63946;
+  color: #D7453E;
 }
 
 /* Secciones de Eventos */
@@ -107,7 +107,7 @@ body, html {
 }
 
 .evento-title {
-  background-color: #FF0004;
+  background-color: #D7453E;
   color: #fff;
   padding: 1rem 1.5rem;
   font-size: 3rem;
@@ -197,7 +197,7 @@ body, html {
 }
 
 .evento-header-offset .evento-title {
-  background-color: #FF0004;
+  background-color: #D7453E;
   color: #fff;
   padding: 1rem 1.5rem;
   font-size: 3rem;
@@ -219,7 +219,7 @@ body, html {
 }
 
 .evento-header-offset-right .evento-title {
-  background-color: #FF0004;
+  background-color: #D7453E;
   color: #fff;
   padding: 1rem 1.5rem;
   font-size: 3rem;
@@ -269,7 +269,7 @@ body, html {
 }
 
 .highlight-red {
-  color: #FF0004;
+  color: #D7453E;
   font-weight: 600;
 }
 
@@ -302,7 +302,7 @@ body, html {
 }
 
 .video-wrapper:hover {
-  border-color: #FF0004;
+  border-color: #D7453E;
 }
 
 .video-wrapper iframe {
@@ -333,7 +333,7 @@ body, html {
 }
 
 .taller-title {
-  background-color: #FF0004;
+  background-color: #D7453E;
   color: #fff;
   padding: 0.75rem 1.5rem;
   font-size: 2rem;
@@ -375,7 +375,7 @@ body, html {
 }
 
 .highlight-box {
-  background-color: #FF0004;
+  background-color: #D7453E;
   color: #fff;
   padding: 0.2rem 0.3rem;
   font-weight: 700;
@@ -385,7 +385,8 @@ body, html {
 
 /* Highlight Box - Etapas Design Thinking (inline) */
 .highlight-box-inline {
-  background-color: #FF0004;
+  /* este es otro rojo #FF0004 */
+  background-color: #D7453E;
   color: #fff;
   padding: 0.15rem 0.4rem;
   font-weight: 700;
@@ -433,7 +434,7 @@ body, html {
   content: "•";
   position: absolute;
   left: 0;
-  color: #FF0004;
+  color: #D7453E;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -458,7 +459,7 @@ body, html {
   content: "•";
   position: absolute;
   left: 0;
-  color: #FF0004;
+  color: #D7453E;
   font-weight: bold;
   font-size: 1.2rem;
 }
