@@ -586,6 +586,182 @@ export default function TecInnovationLab() {
             <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
           </div>
 
+          <div className="credit-category">
+            <h3 className="credit-title">Angel Axel Pérez Asiain</h3>
+            <p className="credit-text">Ingeniería Mecánica (IM).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Rodrigo Juárez López</h3>
+            <p className="credit-text">Ingeniería Industrial (ISS).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Elizabeth Michelle Salazar Rodríguez</h3>
+            <p className="credit-text">Licenciatura en Diseño Industrial (LDI).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Erick Adahy Pérez Domínguez</h3>
+            <p className="credit-text">Arquitectura (ARQ).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Luis Antonio Jiménez Morales</h3>
+            <p className="credit-text">Arquitectura (ARQ).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">David Amir Gómez Fermín</h3>
+            <p className="credit-text">Licenciatura en Esterategia y Transformación de Negocios (LAE).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+          
+          <div className="credit-category">
+            <h3 className="credit-title">José Antonio Pacheco Morales</h3>
+            <p className="credit-text">Licenciatura en Derecho (LED).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Paulina Andrea Micet Cruz</h3>
+            <p className="credit-text">Licenciatura en Economía (LEC).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Erick Alejandro Tapia Vicente</h3>
+            <p className="credit-text">Ingeniería Mecánica (IM).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Carolina Domínguez López</h3>
+            <p className="credit-text">Licenciatura en Esterategia y Transformación de Negocios (LAE).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Alejandra De Los Santos Casas</h3>
+            <p className="credit-text">Licenciatura en Finanzas (LAF).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Luis Manuel Gómez López</h3>
+            <p className="credit-text">Licenciatura en Economía y Gobierno y Transformación Pública (LEC y LTP)</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">César Maximiliano Arreguín Lagunas</h3>
+            <p className="credit-text">Ingeniería en Innovación y Transformación de Negocios (BME).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Gregorio Romero Sandoval</h3>
+            <p className="credit-text">Ingeniería Civil (BC).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Roberto Jara Muñoz</h3>
+            <p className="credit-text">Licenciatura en Negocios Internacionales (BIB).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Mateo Pérez Lugo</h3>
+            <p className="credit-text">Ingeniería en Innovación y Transformación de Negocios (BME).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Regina Bermúdez Maya</h3>
+            <p className="credit-text">Arquitectura (ARQ).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">José Alejandro Méndez Juárez</h3>
+            <p className="credit-text">Arquitectura (ARQ).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Roberto Castro Gómez</h3>
+            <p className="credit-text">Ingeniería en Sistemas Computacionales (ITC).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Nancy Paola Reyes Pazzi</h3>
+            <p className="credit-text">Ingeniería en Sistemas Computacionales (ITC).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Ana Luisa Cruz Flores</h3>
+            <p className="credit-text">Ingeniería en Sistemas Computacionales (ITC).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Rebeca Saldaña Espinoza</h3>
+            <p className="credit-text">Ingeniería Mecatrónica (IMT). </p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">José Alfredo Guerrero Fernández</h3>
+            <p className="credit-text">Ingeniería en Innovación y Transformación de Negocios (BME).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Diego Tenoch Bello López</h3>
+            <p className="credit-text">Licenciatura en Comunicación (LC).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Javier Pichón Texis</h3>
+            <p className="credit-text">Licenciatura en Arte Digital (LAD).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Valeria Pelcastre Reyes</h3>
+            <p className="credit-text">Licenciatura en Diseño Industrial (LDI).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Karen Arlette Segura Bartolo</h3>
+            <p className="credit-text">Licenciatura en Diseño Industrial (LDI).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Mateo Sebastián Chuquimarca Chasipanta</h3>
+            <p className="credit-text">Ingeniería Mecánica (IM).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          <div className="credit-category">
+            <h3 className="credit-title">Daniela Montserrat Díaz Ramos</h3>
+            <p className="credit-text">Ingeniería en Biotecnología (IBT).</p>
+            <p className="credit-text">Contribuyó en el diseño del Tec Innovaction Lab 2025</p>
+          </div>
+
+          
+
         </div>
       </section>
 
