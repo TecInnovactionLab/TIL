@@ -536,7 +536,7 @@ body {
 }
 
 .sponsor-logo {
-  height: clamp(2rem, 4vw, 3rem);
+  height: clamp(5rem, 4vw, 3rem);
   width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
