@@ -203,7 +203,7 @@ export default function TecInnovationLab() {
   
   <div className="projects-intro">
     <p className="projects-text">
-      Durante la octava edición del Tec Innovaction Lab, estudiantes de diversas carreras y semestres trabajaron en proyectos 
+      Durante la primera edición del Tec Innovaction Lab, estudiantes de universidad y prepa trabajaron en proyectos 
       que abordan desafíos reales de la comunidad, organizados en tres líneas de innovación:
     </p>
   </div>
