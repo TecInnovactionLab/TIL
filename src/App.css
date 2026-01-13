@@ -872,3 +872,38 @@ html, body {
     gap: 1.5rem;
   }
 }
+
+/* Estilos para categorías de proyectos */
+.category-section {
+  width: 100%;
+  max-width: 1400px;
+  margin-top: clamp(3rem, 6vw, 4rem);
+}
+
+.category-section:first-of-type {
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.category-title {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 700;
+  color: #D7453E;
+  margin-bottom: clamp(1.5rem, 3vw, 2rem);
+  text-align: left;
+  padding-bottom: clamp(0.5rem, 1vw, 0.75rem);
+  border-bottom: 3px solid #D7453E;
+  word-wrap: break-word;
+}
+
+/* Espaciado entre categorías en móvil */
+@media (max-width: 768px) {
+  .category-section {
+    margin-top: 2.5rem;
+  }
+  
+  .category-title {
+    font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+}
