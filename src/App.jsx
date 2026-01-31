@@ -208,7 +208,7 @@ export default function TecInnovationLab() {
     </p>
   </div>
   {/* Podcast */}
-  {/* <div className='category-section'>
+  <div className='category-section'>
     <h3 className="category-title">El sonido de la Innovación Pública</h3>
     <div className="podcast-intro">
       <p className="projects-text">
@@ -227,7 +227,7 @@ export default function TecInnovationLab() {
         loading="lazy"
       ></iframe>
     </div>
-  </div> */}
+  </div>
 
   {/* Categoría 1: Sociedad Inclusiva y gobernanza participativa */}
   <div className="category-section">
