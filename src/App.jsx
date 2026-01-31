@@ -207,6 +207,27 @@ export default function TecInnovationLab() {
       que abordan desafíos reales de la comunidad, organizados en tres líneas de innovación:
     </p>
   </div>
+  {/* Podcast */}
+  <div className='category-section'>
+    <h3 className="category-title">El sonido de la Innovación Pública</h3>
+    <div className="podcast-intro">
+      <p className="projects-text">
+        Escucha <strong>"El sonido de la Innovación Pública"</strong> - Una playlist que captura la esencia del Tec InnovAction Lab
+      </p>
+    </div>
+    <div className="spotify-container">
+      <iframe 
+        style={{ borderRadius: '12px' }}
+        src="https://open.spotify.com/embed/playlist/018VjvBWmPOGRANyfBKHVR?utm_source=generator&theme=0" 
+        width="100%" 
+        height="352" 
+        frameBorder="0" 
+        allowFullScreen="" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy"
+      ></iframe>
+    </div>
+  </div>
 
   {/* Categoría 1: Sociedad Inclusiva y gobernanza participativa */}
   <div className="category-section">
