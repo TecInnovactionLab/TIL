@@ -81,9 +81,22 @@ body {
 }
 
 .hero {
-  padding: 10rem clamp(1.5rem, 5vw, 3rem) 1.5rem;
+  /* --navbar-h la publica el hook useAlturaNavbar con la altura real del
+     navbar fijo; el 10rem es el respaldo si el JS aún no corrió. */
+  padding: calc(var(--navbar-h, 10rem) + 2.5rem) clamp(1.5rem, 5vw, 3rem) 1.5rem;
   width: 100%;
   margin: 0 auto;
+}
+
+/* Los enlaces del menú hacen scroll a estas secciones: sin este margen
+   el título de destino queda debajo del navbar fijo. */
+.about-section,
+.how-it-works,
+.numeralia-section,
+.projects-section,
+.credits-section,
+.contact-section {
+  scroll-margin-top: calc(var(--navbar-h, 6rem) + 1rem);
 }
 
 .hero-content {
@@ -530,8 +543,11 @@ body {
 }
 
 .sponsor-logo {
-  height: clamp(5rem, 4vw, 3rem);
+  /* Antes: clamp(5rem, 4vw, 3rem) — el mínimo era mayor que el máximo,
+     así que clamp devolvía siempre 5rem y la imagen se salía en móvil. */
+  height: clamp(3rem, 6vw, 5rem);
   width: auto;
+  max-width: 100%;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
@@ -629,7 +645,7 @@ html, body {
   }
 
   .hero {
-    padding-top: 10rem;
+    padding-top: calc(var(--navbar-h, 10rem) + 2rem);
     padding-bottom: 1rem;
   }
 
@@ -863,7 +879,7 @@ html, body {
 }
 @media (max-width: 480px) {
   .hero {
-    padding-top: 9rem;
+    padding-top: calc(var(--navbar-h, 9rem) + 1.5rem);
     padding-bottom: 0.75rem;
   }
 

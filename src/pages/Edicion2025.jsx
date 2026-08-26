@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import useAlturaNavbar from '../hooks/useAlturaNavbar';
 import til from '../assets/til.png';
 import inauguracion1 from '../assets/inauguracion1.jpeg';
 import inauguracion2 from '../assets/inauguracion2.jpeg';
@@ -41,6 +42,8 @@ import rincon1 from '../assets/rincon1.jpeg';
 import './Edicion2025.css';
 
 export default function Edicion2025() {
+  useAlturaNavbar('.navbar-edicion');
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {

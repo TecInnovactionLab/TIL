@@ -24,10 +24,13 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+/* El contenedor raíz debe seguir el ancho de la ventana, no el de su contenido. */
+#root {
+  width: 100%;
 }
 
 h1 {

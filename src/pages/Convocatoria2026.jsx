@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import useAlturaNavbar from "../hooks/useAlturaNavbar";
 import til from "../assets/til.png";
 import "./Convocatoria2026.css";
 
@@ -75,6 +76,7 @@ const CALENDARIO = [
 ];
 
 export default function Convocatoria2026() {
+  useAlturaNavbar(".conv-navbar");
   const tiempo = useCuentaRegresiva(CIERRE);
   const visorDisponible = useVisorDisponible();
 

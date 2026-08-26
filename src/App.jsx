@@ -8,6 +8,7 @@ import PueblatiraThumb from "./assets/loquepueblatira_instagram.png";
 import InstagramVideo from "./components/InstagramVideo";
 import './App.css';
 import { Link } from "react-router-dom";
+import useAlturaNavbar from "./hooks/useAlturaNavbar";
 // import { useEffect } from "react";
 
 // function InstagramEmbed() {
@@ -29,6 +30,8 @@ import { Link } from "react-router-dom";
 // }
 
 export default function TecInnovationLab() {
+  useAlturaNavbar('.navbar');
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {

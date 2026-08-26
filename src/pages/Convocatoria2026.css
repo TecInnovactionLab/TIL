@@ -86,7 +86,7 @@
 
 /* ---------- Hero ---------- */
 .conv-hero {
-  padding: clamp(9rem, 18vw, 12rem) clamp(1.5rem, 5vw, 5rem) clamp(3rem, 6vw, 5rem);
+  padding: calc(var(--navbar-h, 6rem) + clamp(3rem, 6vw, 5rem)) clamp(1.5rem, 5vw, 5rem) clamp(3rem, 6vw, 5rem);
   max-width: 82rem;
 }
 
@@ -261,7 +261,7 @@
 /* ---------- Secciones ---------- */
 .conv-section {
   padding: clamp(3rem, 7vw, 5rem) clamp(1.5rem, 5vw, 5rem);
-  scroll-margin-top: 6rem;
+  scroll-margin-top: calc(var(--navbar-h, 6rem) + 1rem);
   border-top: 0.0625rem solid #1f1f1f;
 }
 
