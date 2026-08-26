@@ -44,6 +44,7 @@ export default function TecInnovationLab() {
             <img src={til} alt="TEC Innovation Lab Logo" className="logo-img"/>
           </div>
           <ul className="nav-menu">
+            <li><Link to="/convocatoria-2026" className="nav-cta">Convocatoria 2026</Link></li>
             <li><a onClick={() => scrollToSection('que-es')}>¿Qué es TIL?</a></li>
             <li><a onClick={() => scrollToSection('como-funciona')}>¿Cómo funciona?</a></li>
             <li><a onClick={() => scrollToSection('numeralia')}>Numeralia</a></li>
@@ -61,6 +62,32 @@ export default function TecInnovationLab() {
           <p className="hero-title">
             Innova, <br />Crea y<br />Transforma <br />el Futuro
           </p>
+        </div>
+      </section>
+
+      {/* Banner Convocatoria 2026 */}
+      <section className="conv-banner">
+        <div className="conv-banner-content">
+          <div className="conv-banner-text">
+            <span className="conv-banner-tag">Convocatoria abierta</span>
+            <h2 className="conv-banner-title">Tec InnovAction Lab 2026</h2>
+            <p className="conv-banner-sub">
+              Equipos de preparatoria y universidad. Recepción de propuestas hasta el
+              9 de octubre de 2026.
+            </p>
+          </div>
+          <div className="conv-banner-actions">
+            <Link to="/convocatoria-2026" className="conv-banner-btn conv-banner-btn-primary">
+              Ver convocatoria
+            </Link>
+            <a
+              className="conv-banner-btn conv-banner-btn-ghost"
+              href={`${import.meta.env.BASE_URL}convocatoria-til-2026.pdf`}
+              download
+            >
+              Descargar PDF
+            </a>
+          </div>
         </div>
       </section>
 

@@ -1,0 +1,544 @@
+/* ============================================
+   Convocatoria 2026
+   Paleta heredada del sitio:
+   negro #000 · gris nav #1F1F1F · rojo #D7453E
+   ============================================ */
+
+.conv-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* ---------- Navbar ---------- */
+.conv-navbar {
+  background-color: #1f1f1f;
+  padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 3rem);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100vw;
+  z-index: 1000;
+  border-bottom: 0.0625rem solid #222;
+  box-sizing: border-box;
+}
+
+.conv-nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(0.5rem, 2vw, 2rem);
+  flex-wrap: wrap;
+}
+
+.conv-logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.conv-logo-img {
+  height: clamp(2rem, 4vw, 3rem);
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.conv-logo-img:hover {
+  transform: scale(1.05);
+}
+
+.conv-nav-menu {
+  display: flex;
+  list-style: none;
+  gap: clamp(0.5rem, 2vw, 2rem);
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.conv-nav-menu li {
+  white-space: nowrap;
+}
+
+.conv-nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: clamp(0.65rem, 1.5vw, 0.9rem);
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  padding: clamp(0.3rem, 1vw, 0.5rem);
+  display: block;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.conv-nav-menu li a:hover,
+.conv-nav-menu li a:focus-visible {
+  color: #d7453e;
+}
+
+/* ---------- Hero ---------- */
+.conv-hero {
+  padding: clamp(9rem, 18vw, 12rem) clamp(1.5rem, 5vw, 5rem) clamp(3rem, 6vw, 5rem);
+  max-width: 82rem;
+}
+
+/* Dos columnas en escritorio: texto a la izquierda, contador a la derecha.
+   En pantallas angostas se apila y el contador sube antes de los botones,
+   para que la fecha límite se lea antes de decidir. */
+.conv-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(19rem, 0.85fr);
+  grid-template-areas:
+    "texto    contador"
+    "acciones contador";
+  column-gap: clamp(2rem, 5vw, 4rem);
+  row-gap: clamp(1.75rem, 4vw, 2.25rem);
+  align-items: center;
+}
+
+.conv-hero-col {
+  grid-area: texto;
+  min-width: 0;
+}
+
+.conv-hero-aside {
+  grid-area: contador;
+  min-width: 0;
+}
+
+.conv-hero-actions {
+  grid-area: acciones;
+}
+
+@media (max-width: 62rem) {
+  .conv-hero-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "texto"
+      "contador"
+      "acciones";
+    row-gap: 2.25rem;
+  }
+}
+
+.conv-eyebrow {
+  font-size: clamp(0.7rem, 1.6vw, 0.85rem);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #d7453e;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.conv-hero-title {
+  font-size: clamp(2.5rem, 7vw, 4.75rem);
+  font-weight: 900;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem;
+}
+
+.conv-year {
+  color: #d7453e;
+}
+
+.conv-hero-text {
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
+  line-height: 1.7;
+  color: #ccc;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+/* Cuenta regresiva: el elemento firma de la página */
+.conv-countdown {
+  border: 0.125rem solid #d7453e;
+  border-left-width: 0.5rem;
+  padding: clamp(1.25rem, 3vw, 1.75rem);
+}
+
+.conv-countdown-label {
+  display: block;
+  font-size: clamp(0.75rem, 1.7vw, 0.9rem);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.conv-countdown-units {
+  display: flex;
+  gap: clamp(1.5rem, 5vw, 2.5rem);
+  align-items: baseline;
+  margin-bottom: 0.75rem;
+}
+
+.conv-unit {
+  display: flex;
+  flex-direction: column;
+}
+
+.conv-unit-num {
+  font-size: clamp(2.25rem, 7vw, 3.25rem);
+  font-weight: 900;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.conv-unit-word {
+  font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin-top: 0.35rem;
+}
+
+.conv-countdown-date {
+  display: block;
+  font-size: clamp(0.8rem, 1.7vw, 0.9rem);
+  color: #d7453e;
+  font-weight: 700;
+}
+
+.conv-countdown-cerrado {
+  border-color: #555;
+}
+
+.conv-countdown-cerrado .conv-countdown-label {
+  margin-bottom: 0;
+}
+
+/* ---------- Botones ---------- */
+.conv-hero-actions,
+.conv-pdf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+}
+
+.conv-btn {
+  display: inline-block;
+  padding: 0.9rem 1.75rem;
+  font-size: clamp(0.85rem, 1.8vw, 1rem);
+  font-weight: 700;
+  text-decoration: none;
+  border: 0.125rem solid #d7453e;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.conv-btn-primary {
+  background-color: #d7453e;
+  color: #fff;
+}
+
+.conv-btn-primary:hover,
+.conv-btn-primary:focus-visible {
+  background-color: #b8332d;
+  border-color: #b8332d;
+  transform: translateY(-0.125rem);
+}
+
+.conv-btn-ghost {
+  background-color: transparent;
+  color: #fff;
+}
+
+.conv-btn-ghost:hover,
+.conv-btn-ghost:focus-visible {
+  background-color: #d7453e;
+  transform: translateY(-0.125rem);
+}
+
+/* ---------- Secciones ---------- */
+.conv-section {
+  padding: clamp(3rem, 7vw, 5rem) clamp(1.5rem, 5vw, 5rem);
+  scroll-margin-top: 6rem;
+  border-top: 0.0625rem solid #1f1f1f;
+}
+
+.conv-title {
+  background-color: #d7453e;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: clamp(1.75rem, 5vw, 3rem);
+  font-weight: 900;
+  width: fit-content;
+  letter-spacing: 0.03rem;
+  margin: 0 0 2rem;
+}
+
+.conv-intro {
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  color: #ccc;
+  font-weight: 300;
+  max-width: 44rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+}
+
+.conv-nota {
+  font-size: clamp(0.8rem, 1.7vw, 0.9rem);
+  color: #888;
+  max-width: 44rem;
+  margin-top: 2rem;
+  line-height: 1.7;
+}
+
+.conv-mail {
+  color: #d7453e;
+  text-decoration: none;
+  border-bottom: 0.0625rem solid #d7453e;
+}
+
+/* ---------- Premios ---------- */
+.conv-premios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.5rem;
+}
+
+.conv-premio {
+  border: 0.0625rem solid #333;
+  padding: clamp(1.5rem, 4vw, 2.25rem);
+  transition: border-color 0.3s ease;
+}
+
+.conv-premio:hover {
+  border-color: #d7453e;
+}
+
+.conv-premio-ganador {
+  border-color: #d7453e;
+  background-color: rgba(215, 69, 62, 0.08);
+}
+
+.conv-premio-monto {
+  display: block;
+  font-size: clamp(2.25rem, 6vw, 3rem);
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.conv-premio-ganador .conv-premio-monto {
+  color: #d7453e;
+}
+
+.conv-premio-lugar {
+  display: block;
+  font-size: clamp(0.85rem, 1.8vw, 0.95rem);
+  color: #ccc;
+  font-weight: 300;
+}
+
+/* ---------- Líneas ---------- */
+.conv-lineas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+}
+
+.conv-linea {
+  border-top: 0.1875rem solid #d7453e;
+  padding-top: 1.5rem;
+}
+
+.conv-linea-num {
+  display: block;
+  font-size: clamp(0.8rem, 1.7vw, 0.9rem);
+  font-weight: 900;
+  color: #d7453e;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+}
+
+.conv-linea-titulo {
+  font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 0.85rem;
+}
+
+.conv-linea-texto {
+  font-size: clamp(0.9rem, 1.9vw, 1rem);
+  color: #ccc;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* ---------- Requisitos ---------- */
+.conv-requisitos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 1.5rem;
+}
+
+.conv-requisito {
+  border-left: 0.25rem solid #d7453e;
+  padding: 0.25rem 0 0.25rem 1.5rem;
+}
+
+.conv-requisito-titulo {
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.conv-requisito-texto {
+  font-size: clamp(0.9rem, 1.9vw, 1rem);
+  color: #ccc;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* ---------- Calendario ---------- */
+.conv-calendario {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 52rem;
+}
+
+.conv-fase {
+  display: grid;
+  grid-template-columns: minmax(9rem, 14rem) 1fr;
+  gap: clamp(1rem, 3vw, 2rem);
+  padding: 1.5rem 0;
+  border-bottom: 0.0625rem solid #222;
+}
+
+.conv-fase:first-child {
+  border-top: 0.0625rem solid #222;
+}
+
+.conv-fase-fecha {
+  font-size: clamp(0.85rem, 1.9vw, 1rem);
+  font-weight: 900;
+  color: #d7453e;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.conv-fase-titulo {
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.conv-fase-detalle {
+  font-size: clamp(0.875rem, 1.9vw, 0.95rem);
+  color: #999;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* ---------- Registro ---------- */
+.conv-registro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.5rem;
+}
+
+.conv-categoria {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  border: 0.0625rem solid #333;
+  padding: clamp(1.5rem, 4vw, 2.25rem);
+  text-decoration: none;
+  color: #fff;
+  transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.conv-categoria:hover,
+.conv-categoria:focus-visible {
+  border-color: #d7453e;
+  background-color: rgba(215, 69, 62, 0.08);
+  transform: translateY(-0.25rem);
+}
+
+.conv-categoria-nivel {
+  font-size: clamp(1.35rem, 3.5vw, 1.75rem);
+  font-weight: 900;
+}
+
+.conv-categoria-detalle {
+  font-size: clamp(0.875rem, 1.9vw, 0.95rem);
+  color: #ccc;
+  font-weight: 300;
+  line-height: 1.7;
+  flex: 1;
+}
+
+.conv-categoria-cta {
+  font-size: clamp(0.85rem, 1.8vw, 0.95rem);
+  font-weight: 700;
+  color: #d7453e;
+}
+
+/* ---------- Visor de PDF ---------- */
+.conv-pdf-visor {
+  margin-top: 2rem;
+  border: 0.0625rem solid #333;
+  height: 45rem;
+}
+
+.conv-pdf-visor iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* Safari iOS y Chrome Android no renderizan PDF en iframe: se oculta el
+   visor y quedan los botones de descarga como única ruta. */
+@media (max-width: 48rem) {
+  .conv-pdf-visor {
+    display: none;
+  }
+}
+
+/* ---------- Footer ---------- */
+.conv-footer {
+  padding: clamp(2rem, 5vw, 3rem) clamp(1.5rem, 5vw, 5rem);
+  border-top: 0.0625rem solid #1f1f1f;
+  color: #666;
+  font-size: clamp(0.75rem, 1.6vw, 0.875rem);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 40rem) {
+  .conv-fase {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .conv-hero-actions .conv-btn,
+  .conv-pdf-actions .conv-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ---------- Accesibilidad ---------- */
+.conv-container a:focus-visible,
+.conv-container button:focus-visible {
+  outline: 0.1875rem solid #fff;
+  outline-offset: 0.1875rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .conv-container * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
